@@ -46,11 +46,15 @@ function footer() {
           <p>Pinterest</p>
         </div>
       </div>
-      <div>
-        <img src="./footer_bottom_img.JPG">
-      </div>
     </div>
-  </div>`;
+    <div id="middle">
+   
+    </div>
+  </div>
+  <div id="lastimage">
+  <img src="../FooterFiles/footer_bottom_img.JPG"height="120px"
+  width="100%">
+</div>`;
 }
 
 export default footer;
