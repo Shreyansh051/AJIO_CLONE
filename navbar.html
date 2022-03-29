@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://assets.ajio.com/static/img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+        #navbar{
+            position: fixed;
+            width: 100%;
+            background-color: #FFFFFF;
+            height:85px;
+            border-top:3px solid #2F4254 ;
+            display:flex;
+            box-shadow: 0px 0px 5px #9a9a9a;
+            margin: auto;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            
+    
+        }
+        #navbar_ajio_logo {
+            width: 130px;
+            height: 37.5px;
+          margin-left: 100%;
+         padding-left: 5px;
+         padding-top: 24px;
+         flex-basis: 20%;
+        }
+
+        #navbar > div:nth-child(n+2):nth-child(-n+6):hover {
+    border-bottom: 4px solid #2F4254;
+    font-weight: bold;
+    font-size: 18px;
+  
+    
+}
+#navbar > div:nth-child(2) {
+    flex-basis: 5%;
+    margin-top: 40px;
+    margin-left: 350px;
+}
+#navbar > div:nth-child(3) {
+    flex-basis: 6%;
+    margin-top: 40px;
+}
+#navbar > div:nth-child(4) {
+    flex-basis: 5%;
+    margin-top: 40px;
+}
+#navbar > div:nth-child(5) {
+    flex-basis: 5%; 
+    margin-top: 40px; 
+}
+#navbar > div:nth-child(6) {
+    flex-basis: 12%; 
+    margin-top: 40px;
+}
+#navbar > div:nth-child(7) {
+    flex-basis: 25%;
+    /* margin-top: 40px; */
+    border: 1px sodid red;
+}
+#subnavbar {
+    display: grid;
+    grid-template-rows: 35px 50px;
+    /* border: 1px solid red; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+}
+#subnavbar > div:nth-child(1) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#subnavbar > div:nth-child(1) > div {
+    margin-right: 90px;
+    font-size:13px;
+    padding-top: 0px;
+    cursor: pointer;
+}
+#subnavbar > div:nth-child(1) > div:hover {
+    text-decoration: underline;
+}
+#subnavbar > div:nth-child(2) {
+    padding-top:8px;
+    padding-left: 3px;
+    display: flex;
+}
+#subnavbar > div:nth-child(2) > div:nth-child(n+3):nth-child(-n+4) {
+    background-color: #2F4254;
+    /* padding-left: px;*/
+    padding-top: 5px;    border-radius: 50%;
+    height:34px;
+    width: 34px;
+    box-sizing: border-box;
+    color:white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#subnavbar > div:nth-child(2) > div:nth-child(2) {
+    position: absolute;
+    right: 15.8%;
+    top: 50px;
+    color:#2F4254;
+}
+#subnavbar > div:nth-child(2) > div:nth-child(1) > input {
+    border-radius: 20px;
+    width:280px;
+    height:30px;
+    padding-left: 10px;
+    border: 1px solid #333;
+    background-color: #FFFDED;
+}
+#search_list {
+    width: 255px;
+    position: fixed;
+    top: 100px;
+    background-color:white;
+    border: 2px solid #f1f1f1;
+    box-shadow: 0px 0px 5px #9a9a9a;
+    right: 16.5%;
+    z-index: 11;
+    visibility: hidden;
+}
+#flying_container {
+    /* height:200px; */
+    width: 70%;
+    /* background-color:gray; */
+    position: fixed;
+    left:250px;
+    top: 100px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    /* overflow: scroll; */
+    visibility: hidden;
+}
+#flying_container > div:nth-child(1) {
+    flex-basis: 50px;
+    border-bottom: 1.5px solid #f1f1f1;
+    border-top: 1.5px solid #f1f1f1;
+    display: flex;
+}
+#flying_container > div:nth-child(1) >div:nth-child(1) {
+    flex-basis: 100px;
+    padding-left:20px;
+    padding-top: 12px;
+    box-sizing: border-box;
+    color:#2F4254;
+}
+#flying_container > div:nth-child(1) >div:nth-child(2) {
+    flex-basis: 100px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    box-sizing: border-box;
+    background-color:#f1f1f1;
+    cursor: pointer;
+    color:#2F4254;
+}
+#flying_container > div:nth-child(1) >div:nth-child(2):hover {
+    font-weight: bold;
+    background-color:#e9e9e9;
+}
+#flying_container > div:nth-child(2) {
+    display: flex;
+}
+#flying_container > div:nth-child(2) > div {
+   flex-basis: 25%;
+   padding-left:20px;
+   color: #2F4254;
+}
+#flying_container > div:nth-child(2) > div > h4  {
+   margin-bottom: 10px;
+   margin-top: 10px;
+   font-weight: 800;
+   font-size: 14px;
+}
+#flying_container > div:nth-child(2) > div > p:hover  {
+   text-decoration: underline;
+}
+#flying_container > div:nth-child(2) > div > h4 a:visited {
+   color: #2F4254;
+   text-decoration: none;
+}
+#flying_container > div:nth-child(2) > div > h4 a:link {
+   color: #2F4254;
+   text-decoration: none;
+}
+#flying_container > div:nth-child(2) > div > p a:visited {
+   color: #2F4254;
+   text-decoration: none;
+}
+#flying_container > div:nth-child(2) > div > p a:link {
+   color: #2F4254;
+   text-decoration: none;
+}
+
+
+        
+        
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" id="navbar_ajio_logo">
+        </div>
+        <div  class="one" id="men_link">
+            <p>MEN</p>
+        </div>
+        <div class="one" id="women_link">
+            <p>WOMEN</p>
+        </div>
+        <div   class="one" id="kids_link">
+            <p>KIDS</p>
+        </div>
+        <div  class="one" id="indie_link">
+            <p>INDIE</p>
+        </div>
+        <div  class="one" id="home_link">
+            <p>HOME AND KITCHEN</p>
+        </div>
+        <div id="subnavbar">
+            <div id="navbar_info">
+                <div>
+                    <p>Customer Care</p>
+                </div>
+                <div id="navbar_signin_btn">
+                    <p>Sign In / Join AJIO</p>
+                </div>
+            </div>
+            <div>
+                <div class="searchiconvisi">
+                    <input type="text" placeholder="Search AJIO" id="search_box">
+                </div>
+                <div class="searchiconvisi">
+                    <span class="material-icons-outlined">
+                        search
+                    </span>
+                </div>
+                <div>
+                    <span class="material-icons-outlined">
+                        checkroom
+                    </span>
+                </div>
+                <div id="cart_icon">
+                    <span class="material-icons-outlined">
+                        shopping_bag
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="layer_mask"></div>
+        <div id="flying_container">
+            <div>
+                <div>
+                    <p>Shop By:</p>
+                </div>
+                <div>
+                    <p>CATEGORIES</p>
+                </div>
+             </div>
+            
+            <div>
+               <div>
+                   <h4><a href="productsPage.html">CLOTHING</a></h4>
+                   <h4><a href="productsPage.html">FOOTWEAR & ACCESSORIES</a></h4>
+                   <h4><a href="productsPage.html">ALL THATS NEW</a></h4>
+                   <p><a href="productsPage.html">Clothing</a></p>
+                   <p><a href="productsPage.html">Footwear</a></p>
+                   <p><a href="productsPage.html">Accessories</a></p>
+                   <h4><a href="productsPage.html">INTERNATIONAL BRANDS</a></h4>
+                   <h4><a href="productsPage.html">WINTERWEAR</a></h4>
+                   <h4><a href="productsPage.html">NIGHT & LOUNGEWEAR</a></h4>
+                   <h4><a href="productsPage.html">GROOMING</a></h4>
+                   <h4><a href="productsPage.html">ETHNIC & FESTIVE</a></h4>
+                   <p><a href="productsPage.html">Kurtas And Shirts</a></p>
+                   <p><a href="productsPage.html">Nehru Jackets</a></p>
+               </div>
+               <div>
+                    <h4><a href="productsPage.html">WESTERN WEAR</a></h4>
+                    <p><a href="productsPage.html">Jackets & Coats</a></p>
+                    <p><a href="productsPage.html">Jeans</a></p>
+                    <p><a href="productsPage.html">Shirts</a></p>
+                    <p><a href="productsPage.html">Shorts & 3/4ths</a></p>
+                    <p><a href="productsPage.html">Sweatshirts & Hoodies</a></p>
+                    <p><a href="productsPage.html">Track Pants</a></p>
+                    <p><a href="productsPage.html">Trousers & Pants</a></p>
+                    <p><a href="productsPage.html">T-Shirts</a></p>
+                    <h4><a href="productsPage.html">FOOTWEAR</a></h4>
+                    <p><a href="productsPage.html">Casual Shoes</a></p>
+                    <p><a href="productsPage.html">Flip-Flops & Slippers</a></p>
+                    <p><a href="productsPage.html">Formal Shoes</a></p>
+                    <p><a href="productsPage.html">Sandals</a></p>
+                    <p><a href="productsPage.html">Sneakers</a></p>
+                    <p><a href="productsPage.html">Sports Shoes</a></p>
+               </div>
+               <div>
+                    <h4><a href="productsPage.html">ACCESSORIES</a></h4>
+                    <p><a href="productsPage.html">Backpacks</a></p>
+                    <p><a href="productsPage.html">Bags & Wallets</a></p>
+                    <p><a href="productsPage.html">Belts</a></p>
+                    <p><a href="productsPage.html">Fashion Accessories</a></p>
+                    <p><a href="productsPage.html">Socks</a></p>
+                    <p><a href="productsPage.html">Sunglasses & Frames</a></p>
+                    <p><a href="productsPage.html">Wallets</a></p>
+                    <p><a href="productsPage.html">Watches</a></p>
+                    <h4><a href="productsPage.html">PRECIOUS JEWELLERY</a></h4>
+                    <p><a href="productsPage.html">Gold And Silver Coins</a></p>
+                    <p><a href="productsPage.html">Gold And Diamonds Jewellery</a></p>
+                    <p><a href="productsPage.html">Silver Jewellery</a></p>
+                    <h4><a href="productsPage.html">INNERWEAR</a></h4>
+                    <p><a href="productsPage.html">Trunks & Boxers</a></p>
+                    <p><a href="productsPage.html">Vests</a></p>
+               </div>
+               <div>
+                    <h4><a href="productsPage.html">FEATURED</a></h4>
+                    <p><a href="productsPage.html">Bags Under 1499</a></p>
+                    <p><a href="productsPage.html">Footwear Under 1499</a></p>
+                    <p><a href="productsPage.html">Jeans Under 1199</a></p>
+                    <p><a href="productsPage.html">Shorts & 3/4ths Under 699</a></p>
+                    <h4><a href="productsPage.html">#AJIORECOMMENDS</a></h4>
+                    <p><a href="productsPage.html">Play Time</a></p>
+               </div>
+            </div>
+            </div>
+        <div id="search_list">
+            
+            <div>
+                <a ><p>Shoes</p></a>
+                <hr>
+            </div>
+            <div>
+                <a ><p>Jackets</p></a>
+                <hr>
+            </div>
+            <div>
+                <a ><p>Jeans</p></a>
+                <hr>
+            </div>
+            <div>
+                <a ><p>Joggers</p></a>
+                <hr>
+            </div>
+            <div>
+                <a ><p>Kurti</p></a>
+                <hr>
+            </div>
+            <div>
+                <a ><p>Boots</p></a> <hr>
+            </div>
+            <div>
+                <a ><p>Shirts</p></a><hr>
+            </div>
+            <div>
+                <a ><p>Top</p></a>
+            </div>
+            </div>
+            
+        
+
+    </div>
+</body>
+</html>
+<script>
+    let search_list = document.getElementById("search_list");
+    let search = document.getElementById("search_box");
+  
+    function display_searchList() {
+      search_list.style.visibility = "visible";
+    }
+    function hide_searchList() {
+      search_list.style.visibility = "hidden";
+    }
+    search.addEventListener("click", display_searchList);
+    search_list.addEventListener("mouseleave", hide_searchList);
+
+    let menu_options = document.getElementsByClassName("one");
+    let flycontainer = document.getElementById("flying_container");
+    
+
+
+    function displayNavContainer() {
+   
+      flycontainer.style.visibility = "visible";
+      console.log("hello")
+    
+    }
+    function hideNavContainer() {
+ 
+      flycontainer.style.visibility = "hidden";
+    
+    }
+   
+    console.log(menu_options);
+    for (let i = 0; i < menu_options.length; i++) {
+      menu_options[i].addEventListener("mouseenter", displayNavContainer);
+      menu_options[i].addEventListener("mouseleave", hideNavContainer);
+    }
+    flycontainer.addEventListener("mouseenter", displayNavContainer); 
+    flycontainer.addEventListener("mouseleave", hideNavContainer);
+</script>
