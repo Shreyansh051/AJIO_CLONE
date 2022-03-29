@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="productPage.css">
+</head>
+<body>
+    <!-- Sidebar container containing all filters like Price,Discount,Gender -->
+<div id="container">
+    <div id="sidebar-filters">
+        <div id="refineby">
+            <p id="refine">Refine By</p>
+            <img
+              id="refine-arrow"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLlFJyXnlww4XPP-vQQ3PNh7_y8LMYuUMXhx7LxZobswW6Cm2GlzebSYWWpMqebE3OPBA&usqp=CAU"
+              alt=""
+            />
+          </div>
+
+          <div id="list">
+
+               <!-- Filter By Gender  -->
+
+              <div id="Gender">
+                <div id="plusGender" class="filterHeader">
+                    <div>Gender</div>
+                  </div>
+                <div id="rightGender" class="filterOptions">
+                    <input type="checkbox" name="men" checked />
+                    <label for="">Men</label>
+                  </div>
+              </div>
+
+              <!-- Filter By Category  -->
+              <div id="Category">
+                <div id="plusCategory" class="filterHeader">
+                    <div>Category</div>
+                  </div>
+                  <div id="rightCategory" class="filterOptions">
+                    <input type="checkbox" name="men" checked />
+                    <label for="">Jackets & Coats</label>
+                  </div>
+              </div>
+
+              <!-- Filter By Price  -->
+              <div id="Price">
+                <div id="plusPrice" class="filterHeader">
+                    <div>Price</div>
+                  </div>
+                  <div id="rightPrice" class="filterOptions">
+                    <input type="checkbox" name="men" onclick="under500(array)" />
+                    <label for="">Below Rs.500</label><br />
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="f500t1000(array)"
+                    />
+                    <label for="">Rs.500-1000</label><br />
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="f1000t1500(array)"
+                    />
+                    <label for="">Rs.1001-1500</label><br />
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="f1500t2000(array)"
+                    />
+                    <label for="">Rs.1501-2000</label><br />
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="f2000t2500(array)"
+                    />
+                    <label for="">Rs.2001-2500</label>
+                  </div>
+              </div>
+
+              <!-- Filter By Brands -->
+              <div id="Brands">
+                <div id="plusBrands" class="filterHeader">
+                    <div>Brands</div>
+                  </div>
+                  <div id="rightBrands" class="filterOptions">
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="fortCollins(array)"
+                    />
+                    <label for="">FORT COLLINS</label><br />
+                    <input type="checkbox" name="men" onclick="highStar(array)" />
+                    <label for="">HIGH STAR</label><br />
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="performax(array)"
+                    />
+                    <label for="">PERFORMAX</label><br />
+                    <input type="checkbox" name="men" onclick="levis(array)" />
+                    <label for="">LEVIS</label><br />
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="indianTerrain(array)"
+                    />
+                    <label for="">INDIAN TERRAIN</label><br />
+                    <label for="">MORE</label>
+                  </div>
+              </div>
+
+              <!-- Filter By Occasion  -->
+              <div id="Occasion">
+                <div id="border">
+                    <div id="plusOccasion" class="filterHeader">
+                      <div>Occasion</div>
+                    </div>
+                    <div id="rightOccasion" class="filterOptions">
+                      <input type="checkbox" name="men" />
+                      <label for="">Active</label><br />
+                      <input type="checkbox" name="men" />
+                      <label for="">ACTIVE</label><br />
+                      <input type="checkbox" name="men" />
+                      <label for="">Casual</label><br />
+                      <input type="checkbox" name="men" />
+                      <label for="">CASUAL</label><br />
+                      <input type="checkbox" name="men" />
+                      <label for="">Occasion</label><br />
+                      <label for="">MORE</label>
+                    </div>
+              </div>
+
+              <!-- Filter By Discount  -->
+              <div id="Discount">
+                <div id="plusDiscount" class="filterHeader">
+                    <div>Discount</div>
+                  </div>
+                  <div id="rightDiscount" class="filterOptions">
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="disc0To20(array)"
+                    />
+                    <label for="">0-20%</label><br />
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="disc21To30(array)"
+                    />
+                    <label for="">21-30%</label><br />
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="disc31To40(array)"
+                    />
+                    <label for="">31-40%</label><br />
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="disc41To50(array)"
+                    />
+                    <label for="">41-50%</label><br />
+                    <input
+                      type="checkbox"
+                      name="men"
+                      onclick="disc51To80(array)"
+                    />
+                    <label for="">51-80%</label><br />
+                  </div>
+              </div>
+
+              <!-- Filter By Colors  -->
+              <div id="Colors">
+                <div id="plusColors" class="filterHeader">
+                    <div>Colors</div>
+                  </div>
+                  <div id="rightColors" class="filterOptions">
+                    <input type="checkbox" name="men" onclick="black(array)" />
+                    <label for=""></label>Black<br />
+                    <input type="checkbox" name="men" onclick="blue(array)" />
+                    <label for="">Blue</label><br />
+                    <input type="checkbox" name="men" onclick="jetBlack(array)" />
+                    <label for="">Jet-Black</label><br />
+                    <input type="checkbox" name="men" onclick="olive(array)" />
+                    <label for="">Olive</label><br />
+                    <input type="checkbox" name="men" onclick="grey(array)" />
+                    <label for="">Grey</label><br />
+                    <label for="">MORE</label>
+                  </div>
+              </div>
+
+              <!-- Filter By Size & Fits  -->
+              <div id="Size">
+                <div id="plusSize" class="filterHeader">
+                    <div>Size & Fit</div>
+                  </div>
+                  <div id="rightSize" class="filterOptions">
+                    <input type="checkbox" name="men" />
+                    <label for="">XXS</label><br />
+                    <input type="checkbox" name="men" />
+                    <label for="">XS</label><br />
+                    <input type="checkbox" name="men" />
+                    <label for="">S</label><br />
+                    <input type="checkbox" name="men" />
+                    <label for="">M</label><br />
+                    <input type="checkbox" name="men" />
+                    <label for="">L</label>
+                  </div>
+              </div>
+          </div>
+    </div>
+    </div>
+
+
+<!-- Main container containing page info adn all products in grid -->
+    <div id="products">
+    
+    <div id="info">
+          <p>MENS</p>
+          <h1>Jackets & Coats</h1>
+          <div id="description">
+            Versatile and sophisticated, AJIO brings to you a wide range of
+            coats and jackets for men. Be it printed, embroidered, ripped or
+            distressed we have everything. Browse through cool gilets, quilted
+            bombers and winter jackets to keep your fashion game on fleek this
+            cold season. Let the bad boy out to play with leather jackets or
+            sharpen up your look with traditional mens coats
+          </div>
+    </div>
+    <div id="sortBy-filters">
+            <!-- <button id="grid3" onclick="cols3()">3 cols</button> -->
+            <div id="rows">
+              <label for="">GRID</label>
+              <div></div>
+              <div class="boxcols" onclick="cols3()">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+              </div>
+              <div class="boxcols5" onclick="cols5()">
+                <div class="box5"></div>
+                <div class="box5"></div>
+                <div class="box5"></div>
+                <div class="box5"></div>
+                <div class="box5"></div>
+              </div>
+            </div>
+            <!-- <button id="grid5" onclick="cols5()">5 cols</button> -->
+            
+            <div id="sortBy">
+
+              <label for="" class="alignment">SORT BY</label>
+              <select name="" id="select">
+                <option value="What's New" id="new">What's New</option>
+                <option value="Relevance" id="relevance">Relevance</option>
+                <option value="Discount" id="discount">Discount</option>
+                <option value="Price(highest first)" id="high">
+                  Price(highest first)
+                </option>
+                <option value="Price(lowest first)" id="low">
+                  Price(lowest first)
+                </option>
+              </select>
+            </div>
+            
+            <!-- <div id="pagination">
+                <div onclick="decrementPage()"><</div>
+                <div><p id="pageValue">1</p></div>
+                <div onclick="incrementPage()">></div>
+              </div>
+            </div> -->
+          
+    </div>
+    <div id="content"></div>
+    </div>
+</div>
+
+  
+</body>
+</html>
+<script src="productPage.js"></script>
+
