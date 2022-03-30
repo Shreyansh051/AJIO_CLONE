@@ -1,7 +1,7 @@
 function footer() {
     return `    <div id="footer">
     <div>
-      <img src="./footer_top_img.JPG">
+      <img src="../FooterFiles/footer_top_img.JPG">
     </div>
     <div>
       <div id="sub_footer">
