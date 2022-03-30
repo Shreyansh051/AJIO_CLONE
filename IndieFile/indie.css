@@ -1,15 +1,13 @@
-#bigbanner > img {
+#bigbanner >img {
     width: 99%;
     height: 100%;
   }
-  #bigbanner > img:hover {
+  #bigbanner> img:hover {
     transform: scale(1.02);
     transition: transform 1.2s;
   }
-  #label {
-    width: 100%;
-  }
-  #label > img {
+  
+  a> img {
     width: 99%;
     height: 100%;
   }
@@ -20,26 +18,26 @@
   #bigbox1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border: 2px solid black;
+    
   }
   #bigbox1 > div > img {
     width: 99%;
     height: 100%;
   }
-  #bigbox1 > div > img:hover {
+  #bigbox1 > div> img:hover {
     transform: scale(1.02);
     transition: transform 1.2s;
   }
   
   #Bigbox2 {
     display: flex;
-    border: 1px solid green;
+    
   }
-  #Bigbox2 > div > img {
+  #Bigbox2 > div >a> img {
     width: 99%;
     height: 100%;
   }
-  #Bigbox2 > div > img:hover {
+  #Bigbox2 > div >a> img:hover {
     transform: scale(1.02);
     transition: transform 1.2s;
   }
@@ -48,11 +46,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  #bigbox3 > div > img {
+  #bigbox3 > div >a> img {
     width: 99%;
     height: 100%;
   }
-  #bigbox3 > div > img:hover {
+  #bigbox3 > div >a> img:hover {
     transform: scale(1.02);
     transition: transform 1.2s;
   }
@@ -61,11 +59,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  #Bigbox4 > div > img {
+  #Bigbox4 > div >a> img {
     width: 99%;
     height: 100%;
   }
-  #Bigbox4 > div > img:hover {
+  #Bigbox4 > div > a>img:hover {
     transform: scale(1.02);
     transition: transform 1.2s;
   }
