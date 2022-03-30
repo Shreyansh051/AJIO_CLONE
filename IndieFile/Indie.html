@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,17 +10,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../FooterFiles/footer.css">
+    <!-- navbar links -->
+    <link rel="stylesheet" href="../NavbarFiles/styles/navbar_real.css">
+
     <title>Indie</title>
 </head>
 
 <body>
-    <div id="navbar">
+    <div id="Navbar">
 
     </div>
     <!-- label1 -->
-    <a id="label" href="../productPage/productPage.html">
-        <img src="./images/label1.webp">
-    </a>
+    
+        <a id="label1" class="lab" href="../productPage/productPage.html">
+            <img src="./images/label1.webp">
+        </a>
+  
     <!-- bigbanner -->
 
     <a id="bigbanner" href="../productPage/productPage.html">
@@ -119,6 +123,12 @@
 </body>
 
 </html>
+<script src="../NavbarFiles/scripts/navbar_real.js"></script>
+<script type="module">
+    import navbar from "../NavbarFiles/component/navbar_real.js";
+    let navbar_division = document.getElementById("Navbar");
+    navbar_division.innerHTML =  navbar();
+</script>
 <script type="module">
     import footer from "../FooterFiles/footer.js";
     let footer_division = document.getElementById("footer_division");

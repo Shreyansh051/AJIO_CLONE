@@ -15,6 +15,7 @@ a > img {
   transform: scale(1.02);
   transition: transform 1.2s;
 }
+
 #bigbox1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -64,8 +65,4 @@ a > img {
 #Bigbox4 > div > a > img:hover {
   transform: scale(1.02);
   transition: transform 1.2s;
-}
-
-#navbar {
-  margin-top: 20px;
 }
