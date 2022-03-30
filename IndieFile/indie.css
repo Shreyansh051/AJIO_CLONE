@@ -14,7 +14,6 @@
   #label > img:hover {
     transform: scale(1.02);
     transition: transform 1.2s;
-  }
   #bigbox1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
