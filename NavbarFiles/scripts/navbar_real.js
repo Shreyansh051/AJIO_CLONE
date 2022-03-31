@@ -1,6 +1,8 @@
 
     let search_list = document.getElementById("search_list");
     let search = document.getElementById("search_box");
+    console.log(search_list);
+    console.log(search);
   
     function display_searchList() {
       search_list.style.visibility = "visible";
