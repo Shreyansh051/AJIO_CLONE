@@ -568,6 +568,7 @@ var select = document.getElementById("select");
       } else {
         countolive++;
         parent.innerHTML = "";
+        console.log("No data")
         displayData(DataArray);
       }
     }
