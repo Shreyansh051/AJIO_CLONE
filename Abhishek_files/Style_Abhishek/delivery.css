@@ -1,0 +1,398 @@
+
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+  /****************  
+           NAVBAR
+         **************/
+
+.hr1{
+            border-top: .5px solid #333333;
+            margin: 0;
+        }  
+
+ .navbar{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            margin-bottom: 20px;
+            align-items: flex-start;
+           
+        }
+        
+        
+        .navbar .img img{
+            width: 120px;
+            cursor: pointer;
+        }
+        .navbar .img {
+            margin-right: 100px;
+            padding-top: 20px;
+        }
+        .navbar .middle img{
+            width: 20px;
+            /* margin-top: 10px; */
+        }
+        
+        .navbar span.line{
+            display: block;
+            border-bottom: 1px solid rgba(19, 17, 17, 0.557);
+           width: 150px;
+          margin-bottom: 12px;
+        }
+        
+        .navbar .middle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 50px;
+        }
+        .navbar .middle .m1{
+            margin-top: 30px;
+            display: flex;
+        }
+        
+        .navbar .last{
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .navbar .last p{
+            margin: 0;
+        }
+        .navbar .last p a{
+            margin-right: 25px;
+            font-size: 11px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        .navbar .last p a:hover
+        {
+           text-decoration-line:underline ;
+        }
+        .navbar .br{
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(237,237,237);
+            border-radius: 50%;
+        }
+
+
+.main{
+    width:  70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 10%;
+    
+  
+}
+
+.top{
+    display: flex;
+
+}
+
+.topImage{
+    padding: 20px 10px;
+    width: 40px;
+}
+
+.top .second{
+    margin: 0;
+    font-size: 14px;
+}
+
+.top .first{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.mainAddress{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.realMain{
+    font-size: 14.5px;
+}
+.realMain p{
+    margin: 0;
+    color: rgb(94, 92, 88);
+}
+
+.realMain .default{
+   margin-bottom: 15px;
+   color: rgb(179, 132, 15);
+}
+
+#myBtn{
+    margin: 30px 0;
+    border: none;
+    background: none;
+    color: rgb(4, 88, 167);
+    font-weight: bold;
+    padding: 0;
+}
+
+
+/*********** 
+    MODAL
+*********** /
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+
+/* other in modal */
+  .modal-body input {
+      
+      width: 240px;
+      padding: 4px;
+      margin-bottom: 13px;
+  }
+  .modal-body #submit{
+    width: 250px;
+  }
+
+  .modal-body #flatNo{
+    margin-top: 20px;
+  }
+  
+
+  /* Static part */
+.static{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 25px;
+}
+
+  .static_chotu{
+      border: 1px solid rgb(21, 56, 37);
+      border-style: dashed;
+      padding: 8px 20px;
+     
+
+  }
+
+  .static_chotu .top{
+     font-size: 14.5px;
+     color: #39B572;
+     margin: 0;
+  }
+
+  .static_chotu .bottom{
+      font-size: 14px;
+      margin: 0;
+      margin-top: 6px;
+  }
+
+  /* Items */
+
+  .addressAll{
+      margin-bottom: 70px;
+  }
+
+  .headImage{
+      width: 60px;
+  }
+  .topimg1{
+      margin: 0 10px;
+      margin-top: 20px;
+  }
+
+  #mainItems{
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(2,.8fr);
+      gap: 15px;
+
+  }
+
+  #mainItems img{
+      width: 90px;
+      border-radius: 7px;
+  }
+
+  #mainItems .d1{
+      display: flex;
+  }
+
+  #mainItems .d2{
+      margin-left: 13px;
+      font-size: 14px;
+  }
+  #mainItems .d2 p{
+      margin: 2px;
+  }
+
+     /****************  
+            MAIN INFO 
+         ***** *********/
+
+.mainInfo{
+    border: solid .5px rgb(100, 100, 100);
+    padding: 10px;
+    font-size:14px ;
+    color: #1a1717;
+    margin-top: 50px;
+   
+}
+.mainInfo p{
+    margin: 2px;
+}
+.mainInfo > div{
+    display: flex;
+    justify-content: space-between;
+}
+.mainInfo h4{
+    font-size: 18px;
+}
+
+.mainInfo button{
+    width: 100%;
+    height: 40px;
+    background-color: #f8ad2c;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+#info,#items{
+    padding: 10px;
+
+}
+
+.itemsInfo{
+    margin-bottom: 30px;
+}
+#info{
+    padding-right: 0;
+}
+#items {
+    padding-left: 0;
+}
+
+.boldIt p{
+    font-weight: bold;
+}
+
+#items button{
+    color: #3ad3ce;
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.date{
+    font-size: 18px;
+}
+
+
+ /****************  
+    Footer
+ **************/
+
+ .footer > div img{
+    width: 34px;
+    margin-right: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px  180px;
+}
+
+.footer p{
+    font-size: 12.5px;
+    margin: 0;
+}
+
+.footer .four{
+    display: flex;
+    align-items: center;
+
+    
+}
