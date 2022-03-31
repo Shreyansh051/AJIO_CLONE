@@ -1,24 +1,24 @@
-let parent = document.getElementById("content");
+
 
 // Change in grid styles
 function cols5() {
   // products.innerHTML = "";
   let grid5 = document.getElementById("grid5");
 
-  products.style.display = "grid";
-  // products.style.gridTemplateColumns = "18% 18% 18% 18% 18%";
-  products.style.gridTemplateColumns = "repeat(5,1fr)";
-  products.style.gap = "20px";
+  parent.style.display = "grid";
+  parent.style.gridTemplateColumns = "repeat(2,auto)";
+  // parent.style.gridTemplateColumns = "repeat(5,1fr)";
+  parent.style.gap = "20px";
   displayData(DataArray);
 }
 
 function cols3() {
-  products.innerHTML = "";
+  parent.innerHTML = "";
   let grid3 = document.getElementById("grid3");
-  products.style.display = "grid";
-  // products.style.gridTemplateColumns = "31% 31% 31%";
-  products.style.gridTemplateColumns = "repeat(3,1fr)";
-  products.style.gap = "20px";
+  parent.style.display = "grid";
+  parent.style.gridTemplateColumns = "repeat(3,1fr)";
+  // parent.style.gridTemplateColumns = "repeat(3,1fr)";
+  parent.style.gap = "20px";
   displayData(DataArray);
 }
 
@@ -27,42 +27,43 @@ function cols3() {
 
 
 var DataArray = []
-var DataArrayDisplay = [];
-
 let page = 1;
 let TotalPages = 0;
+let parent = document.getElementById("content");
 let pageValue = document.getElementById("pageValue");
 
-    function decrementPage() {
-      if (page > 1) {
-        page--;
-        DataArray = [];
-        parent.innerHTML = "";
-        pageValue.innerHTML = page;
-        getData(page);
-      } else {
-        alert("Already on first Page");
-      }
-    }
 
-    function incrementPage() {
-      if (page < TotalPages) {
-        page++;
-        DataArray = [];
-        parent.innerHTML = "";
-        pageValue.innerHTML = page;
-        getData(page);
-      } else {
-        alert("You are on last page");
-      }
-    }
+var DataArrayDisplay = [];
+function decrementPage() {
+  if (page > 1) {
+    page--;
+    DataArray = [];
+    parent.innerHTML = "";
+    pageValue.innerHTML = page;
+    getData(page);
+  } else {
+    alert("Already on first Page");
+  }
+}
+
+function incrementPage() {
+  if (page < TotalPages) {
+    page++;
+    DataArray = [];
+    parent.innerHTML = "";
+    pageValue.innerHTML = page;
+    getData(page);
+  } else {
+    alert("You are on last page");
+  }
+}
 
 let getData = async (pageno) => {
       let url= `https://ajioclone.herokuapp.com/products/cat/men?page=${pageno}&size=9`
       let res = await fetch(url);
       let data = await res.json();
 
-      TotalPages = DataArray.totalPages;
+      TotalPages = data.totalPages;
       data.products.forEach((ele) => {
         DataArray.push(ele);
         DataArrayDisplay.push(ele);
@@ -146,17 +147,6 @@ function displayData(DataArray) {
     card.append(img, anchor);
     div.onclick = () => {
       console.log(DataArray);
-      // if (localStorage.getItem("bucket") == null) {
-      //   localStorage.setItem("bucket", JSON.stringify([]));
-      // }
-      // let arr = JSON.parse(localStorage.getItem("bucket"));
-      // arr.push(DataArray);
-      // arr = new DataArray;
-
-      // console.log(arr);
-      // localStorage.setItem("bucket", JSON.stringify(DataArray));
-
-      // window.location.href = "Productdetailspage.html";
     };
 
     parent.append(card);
@@ -236,6 +226,9 @@ var select = document.getElementById("select");
 
 
     // Filter By brand
+
+
+
     let countfort = 0;
     function fortCollins(DataArray) {
       console.log("arrarasdfsdf", DataArray);
@@ -696,3 +689,133 @@ var select = document.getElementById("select");
         displayData(DataArrayDisplay);
       }
     }
+
+
+
+    // Side Bar DropDown Function
+       
+    // Refine By dropdown
+
+    let refineby = document.getElementById("refineby");
+    let list = document.getElementById("list");
+    let refinearrow = document.getElementById("refine-arrow");
+    var num = 0;
+    refineby.onclick = () => {
+        if (list.style.display == "none") {
+        list.style.display = "block";
+        refinearrow.setAttribute("id", "refine-arrow");
+      } else {
+        list.style.display = "none";
+        refinearrow.setAttribute("id", "darr");
+      }
+    };
+
+  // Gender
+
+    let plusGender = document.getElementById("plusGender");
+    plusGender.onclick = () => {
+      let rightGender = document.getElementById("rightGender");
+      if (rightGender.style.display == "none") {
+        rightGender.style.display = "block";
+        rightGender.style.marginTop = "20px";
+      } else {
+        rightGender.style.display = "none";
+      }
+    };
+
+      // Category
+    let plusCategory = document.getElementById("plusCategory");
+    plusCategory.onclick = () => {
+      let rightCategory = document.getElementById("rightCategory");
+      if (rightCategory.style.display == "none") {
+        rightCategory.style.display = "block";
+        rightCategory.style.marginTop = "20px";
+      } else {
+        rightCategory.style.display = "none";
+      }
+    };
+
+    // Price
+
+    let plusPrice = document.getElementById("plusPrice");
+    plusPrice.onclick = () => {
+      let rightPrice = document.getElementById("rightPrice");
+      if (rightPrice.style.display == "none") {
+        rightPrice.style.display = "block";
+        rightPrice.style.marginTop = "20px";
+      } else {
+        rightPrice.style.display = "none";
+      }
+    };
+
+    // Brands
+
+    let plusBrands = document.getElementById("plusBrands");
+
+    plusBrands.onclick = () => {
+      let rightBrands = document.getElementById("rightBrands");
+      if (rightBrands.style.display == "none") {
+        rightBrands.style.display = "block";
+        rightBrands.style.marginTop = "20px";
+      } else {
+        rightBrands.style.display = "none";
+      }
+    };
+
+    // Occasion
+
+    let plusOccasion = document.getElementById("plusOccasion");
+
+    plusOccasion.onclick = () => {
+      let rightOccasion = document.getElementById("rightOccasion");
+      if (rightOccasion.style.display == "none") {
+        rightOccasion.style.display = "block";
+        rightOccasion.style.marginTop = "20px";
+      } else {
+        rightOccasion.style.display = "none";
+      }
+    };
+
+    // Discount
+
+    let plusDiscount = document.getElementById("plusDiscount");
+
+    plusDiscount.onclick = () => {
+      let rightDiscount = document.getElementById("rightDiscount");
+      if (rightDiscount.style.display == "none") {
+        rightDiscount.style.display = "block";
+        rightDiscount.style.marginTop = "20px";
+      } else {
+        rightDiscount.style.display = "none";
+      }
+    };
+
+    // Colors
+
+    let plusColors = document.getElementById("plusColors");
+
+    plusColors.onclick = () => {
+      let rightColors = document.getElementById("rightColors");
+      if (rightColors.style.display == "none") {
+        rightColors.style.display = "block";
+        rightColors.style.marginTop = "20px";
+      } else {
+        rightColors.style.display = "none";
+      }
+    };
+
+    // Size
+
+    let plusSize = document.getElementById("plusSize");
+
+    plusSize.onclick = () => {
+      let rightSize = document.getElementById("rightSize");
+      if (rightSize.style.display == "none") {
+        rightSize.style.display = "block";
+        rightSize.style.marginTop = "20px";
+      } else {
+        rightSize.style.display = "none";
+      }
+    };
+
+ 

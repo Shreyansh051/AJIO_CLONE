@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
     <link rel="stylesheet" href="productPage.css">
-    <link rel="stylesheet" href="./footer.css">
-    
+
+    <!-- ***Footer -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../FooterFiles/footer.css">
+    <link rel="stylesheet" href="styles\navbar_real.css">
 </head>
 <body>
-    <!-- Sidebar container containing all filters like Price,Discount,Gender -->
+  <div id="navbar_division"></div>
+  <!-- Sidebar container containing all filters like Price,Discount,Gender -->
+
 <div id="container">
     <div id="sidebar-filters">
+      <div>
         <div id="refineby">
             <p id="refine">Refine By</p>
             <img
@@ -23,33 +31,40 @@
           </div>
 
           <div id="list">
-
-               <!-- Filter By Gender  -->
-
-              <div id="Gender">
-                <div id="plusGender" class="filterHeader">
-                    <div>Gender</div>
+             <!-- Filter By Gender  -->
+             
+                <div id="gender">
+                  <div id="border">
+                    <div id="plusGender" class="filterHeader">
+                      <div>+</div>
+                      <div>Gender</div>
+                    </div>
+                    <div id="rightGender" class="filterOptions">
+                      <input type="checkbox" name="men" checked />
+                      <label for="">Men</label>
+                    </div>
                   </div>
-                <div id="rightGender" class="filterOptions">
-                    <input type="checkbox" name="men" checked />
-                    <label for="">Men</label>
-                  </div>
-              </div>
+                </div>
 
               <!-- Filter By Category  -->
-              <div id="Category">
-                <div id="plusCategory" class="filterHeader">
+              <div id="category">
+                <div id="border">
+                  <div id="plusCategory" class="filterHeader">
+                    <div>+</div>
                     <div>Category</div>
                   </div>
                   <div id="rightCategory" class="filterOptions">
                     <input type="checkbox" name="men" checked />
                     <label for="">Jackets & Coats</label>
                   </div>
+                </div>
               </div>
 
               <!-- Filter By Price  -->
               <div id="Price">
+                <div id="border">
                 <div id="plusPrice" class="filterHeader">
+                  <div>+</div>
                     <div>Price</div>
                   </div>
                   <div id="rightPrice" class="filterOptions">
@@ -80,11 +95,14 @@
                     />
                     <label for="">Rs.2001-2500</label>
                   </div>
+                </div>
               </div>
 
               <!-- Filter By Brands -->
               <div id="Brands">
+                <div id="border">
                 <div id="plusBrands" class="filterHeader">
+                  <div>+</div>
                     <div>Brands</div>
                   </div>
                   <div id="rightBrands" class="filterOptions">
@@ -112,12 +130,15 @@
                     <label for="">INDIAN TERRAIN</label><br />
                     <label for="">MORE</label>
                   </div>
+                </div>
               </div>
 
 
               <!-- Filter By Discount  -->
               <div id="Discount">
+                <div id="border">
                 <div id="plusDiscount" class="filterHeader">
+                  <div>+</div>
                     <div>Discount</div>
                   </div>
                   <div id="rightDiscount" class="filterOptions">
@@ -152,12 +173,14 @@
                     />
                     <label for="">51-80%</label><br />
                   </div>
+                </div>
               </div>
 
               <!-- Filter By Occasion  -->
               <div id="Occasion">
                 <div id="border">
                     <div id="plusOccasion" class="filterHeader">
+                      <div>+</div>
                       <div>Occasion</div>
                     </div>
                     <div id="rightOccasion" class="filterOptions">
@@ -174,10 +197,14 @@
                       <label for="">MORE</label>
                     </div>
               </div>
+            </div>
+
 
               <!-- Filter By Colors  -->
               <div id="Colors">
+                <div id="border">
                 <div id="plusColors" class="filterHeader">
+                  <div>+</div>
                     <div>Colors</div>
                   </div>
                   <div id="rightColors" class="filterOptions">
@@ -193,11 +220,14 @@
                     <label for="">Grey</label><br />
                     <label for="">MORE</label>
                   </div>
+                
               </div>
 
               <!-- Filter By Size & Fits  -->
               <div id="Size">
+                <div id="border">
                 <div id="plusSize" class="filterHeader">
+                  <div>+</div>
                     <div>Size & Fit</div>
                   </div>
                   <div id="rightSize" class="filterOptions">
@@ -212,9 +242,11 @@
                     <input type="checkbox" name="men" />
                     <label for="">L</label>
                   </div>
+                </div>
               </div>
           </div>
     </div>
+  </div>
     </div>
 
 
@@ -246,9 +278,9 @@
               <div class="boxcols5" onclick="cols5()">
                 <div class="box5"></div>
                 <div class="box5"></div>
+                <!-- <div class="box5"></div>
                 <div class="box5"></div>
-                <div class="box5"></div>
-                <div class="box5"></div>
+                <div class="box5"></div> -->
               </div>
             </div>
             <!-- <button id="grid5" onclick="cols5()">5 cols</button> -->
@@ -268,19 +300,20 @@
                 </option>
               </select>
             </div>
-          
-            
-         
-          
     </div>
+
     <div id="content"></div>
-       <div id="pagination">
-                <div onclick="decrementPage()"><</div>
-                <div><p id="pageValue">1</p></div>
-                <div onclick="incrementPage()">></div>
-              </div>
-            </div>
-    </div>
+
+       
+
+</div>
+
+</div>
+</div>
+<div id="pagination">
+  <div onclick="decrementPage()">Previous</div>
+  <div><p id="pageValue">1</p></div>
+  <div onclick="incrementPage()">Next</div>
 </div>
 <div id="footer_division"></div>
 
@@ -288,9 +321,19 @@
 </body>
 </html>
 <script type="module">
-  import footer from "./footer.js";
-  let footer_division = document.getElementById("footer_division");
-  footer_division.innerHTML = footer();
+  import navbar from "./components/navbar_real.js";
+  let navbar_division = document.getElementById("navbar_division");
+  navbar_division.innerHTML = navbar();
 </script>
+
+
+<script src="../NavbarFiles/scripts/navbar_real.js"></script>
+
+<script type="module">
+    import footer from "../FooterFiles/footer.js";
+    let footer_division = document.getElementById("footer_division");
+    footer_division.innerHTML = footer();
+</script>
+
 <script src="productPage.js"></script>
 
