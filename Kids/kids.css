@@ -1,0 +1,63 @@
+
+#banner>img{
+    width:100%;
+    height: 100%;
+}
+#flex1{
+    display: flex;
+}
+#flex1>div>a>img{
+    width: 100%;
+    height: 100%;
+}
+#label>img{
+    width: 100%;
+    height: 100%;
+}
+#grid1{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#grid1>div>a>img{
+    width: 100%;
+    height: 100%;
+}
+#grid2{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#grid2>div>a>img{
+    width: 100%;
+    height: 100%;
+}
+#grid3{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#grid3>div>a>img{
+    width: 100%;
+    height: 100%;
+}
+#grid4{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#grid4>div>a>img{
+    width: 100%;
+    height: 100%;
+}
+#grid5{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#grid5>div>a>img{
+    width: 100%;
+    height: 100%;
+}
+#flex2{
+    display: flex;
+}
+#flex2>div>a>img{
+    width: 100;
+    height: 100%;
+}
