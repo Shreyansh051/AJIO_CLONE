@@ -16,6 +16,16 @@ a > img {
   transition: transform 1.2s;
 }
 
+.lab>img{
+  margin-top: 92px;
+  width: 99%;
+  height: 100%;
+}
+#label1 > img:hover {
+  transform: scale(1.02);
+  transition: transform 1.2s;
+}
+
 #bigbox1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

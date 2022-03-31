@@ -1,4 +1,10 @@
-
+#Navbar24{
+ width: 100px;
+ height: 90px;
+ position:fixed;
+ top: 0;
+ z-index:14;
+}
 #navbar{
     position: fixed;
     width: 100%;
