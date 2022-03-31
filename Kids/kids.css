@@ -1,0 +1,112 @@
+#banner1 > img {
+  margin-top: 92px;
+  width: 99%;
+  height: 100%;
+}
+#banner1 > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#banner > img {
+  width: 99%;
+  height: 100%;
+}
+#banner > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#flex1 {
+  display: flex;
+}
+#flex1 > div > a > img {
+  width: 99%;
+  height: 100%;
+}
+#flex1 > div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#label > img {
+    width: 99%;
+  height: 100%;
+}
+
+#grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#grid1 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#grid1> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#grid2 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#grid2> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#grid3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#grid3 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#grid3> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#grid4 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#grid4> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#grid5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#grid5 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#grid5> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#flex2 {
+  display: flex;
+}
+#flex2 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#flex2> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#withoutlink {
+    width: 99%;
+  height: 100%;
+}
+#withoutlink:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+}

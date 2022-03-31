@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <title>Document</title>
+    <style>
+        #parent{
+            height:960px ;
+            width:1200px ;
+            /* border: 1px solid red; */
+            display: flex;
+            margin:auto
+        }
+        #parent1{
+            height:929px ;
+            width:200px ;
+            /* border: 1px solid red; */
+            
+        }
+        #parent2{
+            height:929px ;
+            width:605px ;
+            /* border: 1px solid red; */
+        }
+        #parent3{
+            height:900px ;
+            width:403px ;
+            /* border: 1px solid red; */
+            text-align: center;
+        }
+        #parent3> ul{
+            text-align: left;
+        }
+        #parent1_child{
+            height: 100px;
+            width: 100px;
+            margin-left: 50px;
+            margin-top: 200px;
+            /* border: 1px solid red; */
+
+        }
+        #parent1_child >img{
+            height: 100px;
+            width: 100px;
+            
+            /* border: 1px solid red; */
+
+        }
+        #parent1_child2 > img{
+            height: 100px;
+            width: 100px;
+            margin-left: 50px;
+            margin-top: 50px;
+            /* border: 1px solid red; */
+
+        }
+        #size_box{
+            height: 50px;
+            width: 100%;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        #inner_box{
+          height: 50px;
+            width: 50px;
+            /* border: 1px solid red; */
+            border-radius: 25px;
+            text-align: center;
+        }
+        #addtobag{
+            height: 60px;
+            width: 100%;
+            background-color: #d5a249;
+            font-size: 18px;
+            color:white ;
+            text-align: center;
+            vertical-align: middle;
+        }
+        #addtobag > p{
+            padding-top: 20px;
+        }
+        #all_jacket{
+            height: 50px;
+            width: 100%;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content:space-evenly;
+        }
+        #all_jacket> div{
+            height: 50px;
+            width: 27%;
+            /* border: 1px solid red; */
+            background-color: #e5e7eb;
+            text-align: center;
+        }
+        #dif_item{
+            height: 550px;
+            width: 100%;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            
+        }
+        #dif_item >div{
+            height: 550px;
+            width: 18%;
+            /* border: 1px solid red; */
+            
+            
+        }
+        #last_img>img{
+            width: 100%;
+        }
+        #name{
+            color: #b19975;
+        }
+        #pro{
+            color: lightseagreen;
+            text-align: left;
+        }
+        #pro + ul >li{
+            color: gray;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+   <div id="parent"> 
+    <div id="parent1">
+        <div id="parent1_child">
+            <img src="https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img1.jpeg">
+        </div>
+        <div id="parent1_child2">
+            <img src="https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img2.jpeg">
+        </div>
+        <div id="parent1_child2">
+            <img src="https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img3.jpeg">
+        </div>
+        
+    </div>
+    <div id ="parent2">
+        <img src="https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/display.jpeg">
+        <img src="..\images\images\Capture.png">
+    </div>
+    <div id="parent3">
+        <p id="name">"PERFKT-U"</p>
+        <h4>"Quilted Zip-Front Jackets with Insert Pockets"</h4>
+        <h1>Rs. 3333</h1>
+        <p id="name"> Rs. 2999</p>
+        <p>Price inclusive of all taxes</p>
+        <img src="..\images\images\offers.JPG">  
+        <h3>Olive-Green</h3 > 
+        <p>Select Size</p>
+        <div id="size_box">
+            <div id="inner_box"> <P>S</p> </div>
+            <div id="inner_box"> <P>M</p> </div>
+            <div id="inner_box"> <P>L</p> </div>
+            <div id="inner_box"> <P>XL</p> </div>
+            <div id="inner_box"><P>XLL</p> </div>
+        </div>
+        <div>
+            <img src="..\images\images\img2.png">
+        </div>
+        <div id="addtobag">
+            <P>ADD TO BAG</P>
+        </div>
+        <P>HANDPICKED STYLES | ASSURED QUALITY</P>
+        <p id="pro">Product Details</p>
+        <ul>
+            <li>Antibacterial</li>
+            <li>Regular Fit</li> <li>Brand typographic print</li>
+            <li>Machine wash</li> <li>Polyester</li>
+            <li>Universal</li> <li>Product Code: 441100195002</li>
+        </ul>
+    </div>
+   </div> 
+   <div id="about">
+    <img src="..\images\images\img4.png">
+   </div>
+   <div id="all_jacket">
+       <div><P>ALL JACKETS & COATS ></P></div>
+       <div><P>STYLE HOODIES & TRACKS ></P></div>
+       <div><P>BRAND:PERFOMAX ></P></div>
+   </div>
+   
+   <div id="dif_item">
+       <div>
+           <img src="https://assets.ajio.com/medias/sys_master/root/20201212/bGqT/5fd3d405f997dd8c83c78bb9/teamspirit-olive-green-gillets-sleeveless-zip-front-jacket.jpg">
+            <P id="name">
+                PERFORMAX
+            </P>
+            <h5>
+                High-Neck Zip-Front Track Jacket
+            </h5>
+            
+            <P id="name">
+                Rs. 1,299 (30% off)
+            </P>
+            <P>
+                Price inclusive of all taxes
+            </P>
+       
+        </div>
+       <div>
+        <img src="https://assets.ajio.com/medias/sys_master/root/20210601/12B3/60b53b0daeb269a9e3cebc4f/performax-black-hoodies-&-tracks-quickdry-zip-front-jacket.jpg">
+        <P id="name">
+            PERFORMAX
+        </P>
+        <h5>
+            High-Neck Zip-Front Track Jacket
+        </h5>
+        
+        <P id="name">
+            Rs. 1,299 (30% off)
+        </P>
+        <P>
+            Price inclusive of all taxes
+        </P>
+       </div>
+       <div>
+        <img src="https://assets.ajio.com/medias/sys_master/root/20210415/UNqf/6078567af997dd7b64b2f7b6/performax-olive-hoodies-&-tracks-zip-front-training-jacket.jpg">
+        <P id="name">
+            PERFORMAX
+        </P>
+        <h5>
+            High-Neck Zip-Front Track Jacket
+        </h5>
+        
+        <P id="name">
+            Rs. 1,299 (30% off)
+        </P>
+        <P>
+            Price inclusive of all taxes
+        </P>
+       </div>
+       <div>
+        <img src="https://assets.ajio.com/medias/sys_master/root/20210415/z5ZG/607858d3aeb269a9e39270a4/performax-black-hoodies-&-tracks-zip-front-training-jacket.jpg">
+        <P id="name">
+            PERFORMAX
+        </P>
+        <P>
+            High-Neck Zip-Front Track Jacket
+        </P>
+        
+        <P id="name">
+            Rs. 1,299 (30% off)
+        </P>
+        <P>
+            Price inclusive of all taxes
+        </P>
+       </div>
+   </div>
+   <div id="last_img">
+    <img src="..\images\images\footer_top_img.JPG">
+   </div>
+</body>
+</html>
+<script>
+    let color = document.getElementById("inner_box");
+        
+    color.addEventListener("mouseenter", changecolor);
+    color.addEventListener("mouseleave", removecolor);
+    
+    console.log(color);    
+    function changecolor(){
+        color.style.backgroundColor = "#2f4254";
+    }
+    function removecolor(){
+        color.style.backgroundColor = "white"; 
+    }
+    
+    const getdata = async (url) =>{
+    try{
+        let res =await fetch(url);
+        let data = await res.json();
+
+        console.log(data);
+    }
+    catch(error){
+    console.log(error)
+    }
+
+   
+    }
+     getdata(`https://ajioclone.herokuapp.com/products/cat/men?page=1&size=9`);
+   console.log("id")
+</script>

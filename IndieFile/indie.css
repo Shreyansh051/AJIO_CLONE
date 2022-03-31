@@ -1,0 +1,78 @@
+#bigbanner > img {
+  width: 99%;
+  height: 100%;
+}
+#bigbanner > img:hover {
+  transform: scale(1.02);
+  transition: transform 1.2s;
+}
+
+a > img {
+  width: 99%;
+  height: 100%;
+}
+#label > img:hover {
+  transform: scale(1.02);
+  transition: transform 1.2s;
+}
+
+.lab>img{
+  margin-top: 92px;
+  width: 99%;
+  height: 100%;
+}
+#label1 > img:hover {
+  transform: scale(1.02);
+  transition: transform 1.2s;
+}
+
+#bigbox1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#bigbox1 > div > img {
+  width: 99%;
+  height: 100%;
+}
+#bigbox1 > div > img:hover {
+  transform: scale(1.02);
+  transition: transform 1.2s;
+}
+
+#Bigbox2 {
+  display: flex;
+}
+#Bigbox2 > div > a > img {
+  width: 99%;
+  height: 100%;
+}
+#Bigbox2 > div > a > img:hover {
+  transform: scale(1.02);
+  transition: transform 1.2s;
+}
+
+#bigbox3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#bigbox3 > div > a > img {
+  width: 99%;
+  height: 100%;
+}
+#bigbox3 > div > a > img:hover {
+  transform: scale(1.02);
+  transition: transform 1.2s;
+}
+
+#Bigbox4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#Bigbox4 > div > a > img {
+  width: 99%;
+  height: 100%;
+}
+#Bigbox4 > div > a > img:hover {
+  transform: scale(1.02);
+  transition: transform 1.2s;
+}
