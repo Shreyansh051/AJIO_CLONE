@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="../Style_Abhishek/cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Slab:wght@100&family=Ubuntu&family=Ubuntu+Mono&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div  onclick="window.location.href='index.html'"  class="img">
+            <img   src="https://assets.ajio.com/static/img/Ajio-Logo.svg" alt="">
+        </div>
+        <div class="middle">
+            <div class="m1">
+             <div  class="br">
+            <img  src="https://cdn-icons-png.flaticon.com/128/726/726564.png" alt="">
+            </div>   
+            <span class="line"></span>
+            <div class="br">
+            <img src="https://cdn-icons-png.flaticon.com/128/684/684809.png" alt="">
+        </div>   
+            <span  class="line"></span>
+            <div class="br">
+            <img  src="https://cdn-icons-png.flaticon.com/128/1521/1521755.png" alt="">
+        </div>   
+        </div>
+        </div>
+        <div class="last">
+            <p><a href="#">My account</a></p>
+            <p><a href="#">Sign out</a></p>
+            <p><a href="#">Customer care</a></p>
+            <p><a href="#">Feedback</a></p>
+        </div>
+    </div>
+    <hr class="hr1">
+    <!-- Main cart elements -->
+    <div class="main">
+    <div class="topImage">
+        <img src="https://assets.ajio.com/cms/AJIO/WEB/28032021-D-cartpagebanner-relianceones.jpg" alt="">
+    </div>
+    
+    <div class="itemsAndInfo">
+        <!-- CART ITEMS -->
+        <div  id="items"></div>
+
+        
+        <div id="info">
+            <!-- MAIN INFO -->
+             <div class="mainInfo">
+                 <h4>Order Details</h4>
+                 <div>
+                    <p>Bag Total</p>
+                    <p id="bag_total"></p>
+                 </div>
+                  <div>
+                      <p>Bag Discount</p>
+                      <p id="bag_discount"></p>
+                  </div>
+                 <div>
+                     <p>Delivery</p>
+                     <p>Free</p>
+                 </div>
+                 <div class="boldIt">
+                     <p>Total Amount</p>
+                     <p id="price"></p>
+                 </div>
+                 <div>
+                     <Button class="pinky" onclick="toDeliveryPage()">PROCEED TO SHIPPING</Button>
+                 </div>
+                
+             </div>
+             <!-- COUPON INFO -->
+             <div class="bottomInfo">
+                 <h4>Apply Coupon</h4>
+                 <div id="magic">
+                     <div class="jaadu">
+                     <div>
+                     <p id="yourSaving">You save Rs. 423</p>
+                     <p id="whichCoupon">Coupon Applied : Welcome</p>
+                    </div>
+                    <button id="jaadu_btn"><img src="https://cdn-icons-png.flaticon.com/128/1828/1828843.png" alt=""></button>
+                </div>
+                 </div>
+                  <input id="rightHere" type="text" placeholder="Enter Coupon Code">
+                  <button id="apply">Apply</button>
+                  <div class="coupons_info">
+                    <h4>Applicable coupons</h4>
+
+                    <input id="rad1" class="radio1" type="radio" id="cOne" value="Welcome" name="off">
+                    <label class="lab" for="cOne">
+                        <span class="savings">Savings:	&#8377;423.75</span></br>
+                         <span class="title">Welcome</span></br>
+                         <span class="text">
+                             Extra upto 25% off on &#8377;2590 and Above. Max discount Rs. 1500.
+                         </span></br>
+                         <span class="tAndC">View T&C</span>
+                    </label></br>
+
+                    <input id="rad2" class="radio1" type="radio" id="cTwo" value="Frist Buy" name="off">
+                    <label class="lab" for="cTwo">
+                        <span class="savings">Savings:	&#8377;500.75</span></br>
+                         <span class="title">Fristbuy</span></br>
+                         <span class="text">
+                            Get upto extra 25% off on first buy upto &#8377;2590 and Above. Max discount Rs. 2500.
+                         </span></br>
+                         <span class="tAndC">View T&C</span>
+                    </label></br>
+
+                    <input id="rad3" class="radio1" type="radio" id="cThree" value="Bad day" name="off">
+                    <label class="lab" for="cThree">
+                        <span class="savings">Savings:	&#8377;300</span></br>
+                         <span class="title">Bad Day</span></br>
+                         <span class="text">
+                            Get upto extra 25% off on first buy upto &#8377;2590 and Above. Max discount Rs. 2500.
+                         </span></br>
+                         <span class="tAndC">View T&C</span>
+                    </label></br>
+
+
+                  </div>
+             </div>
+            
+        </div>
+    </div>
+    
+      </div>
+      <hr class="hr1">
+   <div class="footer">
+       <div class="four">
+           <img src="https://cdn-icons-png.flaticon.com/128/2438/2438078.png" alt="">
+           <p class="text">SECURE PAYMENTS</p>
+       </div>
+       <div class="four">
+        <img src="https://cdn-icons-png.flaticon.com/128/4766/4766928.png" alt="">
+        <p class="text">CASH ON DELIVERY</p>
+    </div>
+    <div class="four">
+        <img src="https://cdn-icons-png.flaticon.com/128/1212/1212158.png" alt="">
+        <p class="text">ASSURED QUALITY</p>
+    </div>
+    <div class="four">
+        <img src="https://cdn-icons-png.flaticon.com/128/2271/2271113.png" alt="">
+        <p class="text">EASY RETURNS</p>
+    </div>
+   </div>
+  <hr class="hr1">
+</body>
+</html>
+<script src="../Script_Abhishek/cart.js"></script>
+
+
+
+
+
+
+</select>
