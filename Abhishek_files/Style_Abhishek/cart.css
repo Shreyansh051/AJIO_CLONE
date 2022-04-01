@@ -1,0 +1,346 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.hr1{
+    border-top: .5px solid #333333;
+    margin: 0;
+    
+    
+}
+
+    /****************  
+           NAVBAR
+         **************/
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+   
+}
+
+
+.navbar .img img{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar .img {
+    margin-right: 100px;
+    padding-top: 20px;
+}
+.navbar .middle img{
+    width: 20px;
+    /* margin-top: 10px; */
+}
+
+.navbar span.line{
+    display: block;
+    border-bottom: 1px solid rgba(19, 17, 17, 0.557);
+   width: 150px;
+  margin-bottom: 12px;
+}
+
+.navbar .middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.navbar .middle .m1{
+    margin-top: 30px;
+    display: flex;
+}
+
+.navbar .last{
+    display: flex;
+    align-items: flex-start;
+}
+
+.navbar .last p{
+    margin: 0;
+}
+.navbar .last p a{
+    margin-right: 25px;
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .last p a:hover
+{
+   text-decoration-line:underline ;
+}
+.navbar .br{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237,237,237);
+    border-radius: 50%;
+}
+
+
+
+
+       /****************  
+            ITEMS
+         **************/
+
+.main{
+    padding: 0 10%;
+}
+
+.topImage img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.itemsAndInfo{
+    display: grid;
+    grid-template-columns: 70% 30%;
+   
+}
+
+#singleItem{
+    display: grid;
+    grid-template-columns: 15% 27.5% 10% 7.5% 8% 22%;
+    gap: 20px;
+    margin-bottom: 20px;
+    border: .5px solid rgb(75, 71, 71);
+    font-size: .85rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: #333333;
+}
+
+#singleItem img{
+    width: 100%;
+}
+
+.del_btn_div{
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 20px;
+}
+
+#offer_price span{
+    background-color:#d0f0ff;
+    color: rgba(4, 11, 12, 0.918);
+    padding: 4px;
+
+}
+
+#last_part{
+    color: #B5A07E;
+}
+
+#last_part button{
+  margin-top: 5px;
+}
+
+        /****************  
+            MAIN INFO 
+         ***** *********/
+
+.mainInfo{
+    border: solid .5px rgb(100, 100, 100);
+    padding: 10px;
+    font-size:14px ;
+    color: #333333;
+   
+}
+
+.mainInfo p{
+    margin: 2px;
+}
+.mainInfo > div{
+    display: flex;
+    justify-content: space-between;
+}
+.mainInfo h4{
+    font-size: 18px;
+}
+
+.mainInfo button{
+    width: 100%;
+    height: 40px;
+    background-color: #976C23;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+#info,#items{
+    padding: 10px;
+
+}
+#info{
+    padding-right: 0;
+}
+#items {
+    padding-left: 0;
+}
+
+.boldIt p{
+    font-weight: bold;
+}
+
+#items button{
+    color: #176D93;
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+         /****************  
+            BOTTOM INFO
+         ***************/
+
+
+.bottomInfo{
+    margin-top: 20px;
+    border: #dd5e38b9 solid .5px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.bottomInfo .savings{
+    font-weight: bold;
+    color: #333333;
+}
+
+.bottomInfo #rightHere{
+    margin-bottom: 10px;
+    width: 180px;
+    padding: 10px 10px;
+}
+
+.bottomInfo button{
+   padding: 10px;
+   width: 80px;
+   border: none;
+}
+
+div.coupons_info{
+    padding: 10px;
+    height: 250px;
+    overflow: scroll;
+}
+
+.coupons_info{
+    color: #333333;
+}
+.radio1{
+    margin: 10px 5px;
+   
+
+}
+
+.tAndC{
+    color: rgba(6, 122, 175, 0.945);
+    cursor: pointer;
+}
+
+       /****************  
+          COUPON APPLIED
+         ***************/
+
+ #yourSaving{
+     font-size: 14px;
+     font-weight: bold;
+     margin: 1px;
+     color: #e8f808;
+ }    
+ 
+ #whichCoupon{
+     font-size: 13px;
+     margin: 1px;
+    
+ }
+#magic{
+    border: solid rgb(42, 230, 36) 1px;
+    padding: 5px;
+    margin-bottom: 8px;
+    display: none;
+    background: #5A3F37;  /* fallback for old browsers */
+    background: #F1F2B5;  /* fallback for old browsers */
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.jaadu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jaadu img{
+    width: 20px;
+}
+
+.jaadu button{
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+
+
+ /****************  
+    Footer
+ **************/
+
+ .footer > div img{
+     width: 34px;
+     margin-right: 12px;
+ }
+
+ .footer {
+     display: flex;
+     justify-content: space-between;
+     padding: 40px  180px;
+ }
+
+ .footer p{
+     font-size: 12.5px;
+     margin: 0;
+ }
+
+ .footer .four{
+     display: flex;
+     align-items: center;
+
+     
+ }
+
+
+ /* other */
+
+ #info{
+    padding-bottom: 0;
+}
+
+#info .pinky{
+    background-color:#bc6c25 ;
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+}
+
+#sel1{
+    width: 70px;
+}
+
