@@ -94,8 +94,7 @@ transform: scale(1.015);
     }
 
     #poster{
-        display: grid;
-        grid-template-columns: 100%;
+       width:100%;
         transition: transform .8s ease;
     }
     #poster:hover {
