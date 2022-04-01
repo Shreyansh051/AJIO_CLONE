@@ -11,19 +11,19 @@ function slide()
 
 
             <div class="slide second">
-                <img class="zoom_img"  src="https://assets.ajio.com/cms/AJIO/WEB/31032022-D-MHP-banner1-p1-ajiogold-brands-3060.jpg" alt="">
+                <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/25092022-D-IHP-bestofbrands-indiepicks-upto80.jpg" alt="">
             </div>
                 <div class="slide">
 
-                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/31032022-D-MHP-banner1-p2-jack&jones-4060.jpg" alt="">
+                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/INDIE-Fabindia-D.jpg" alt="">
                </div> 
                <div class="slide">
 
-                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/31032022-D-MHP-banner1-p3-linenclub-min40.jpg" alt="">
+                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/25092022-D-IHP-bestofbrands-pothys-upto50.jpg" alt="">
                </div> 
                <div class="slide">
 
-                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/31032022-D-MHP-banner1-p4-thehollander-min70.jpg" alt="">
+                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/25092022-D-IHP-bestofbrands-fashor-upto80.jpg" alt="">
                </div> 
                
 

@@ -240,26 +240,13 @@
 </div>
     </div>
 </div>
-    <!-- banner1 -->
-    <a id=banner1 class="first" href="../productPage/productPage.html"><img
-            src="https://assets.ajio.com/cms/AJIO/WEB/28032022-D-KHP-topbanner-allstarssale-extended-5090.gif"></a>
-    <!-- label1 -->
-    <div id="flex1">
-        <div>
-            <a href="../productPage/productPage.html"><img
-                    src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-Topstrips-InstantDiscount.jpg"></a>
-        </div>
-        <div>
-            <a href="../productPage/productPage.html"><img
-                    src="https://assets.ajio.com/cms/AJIO/WEB/onecard-719x148.jpg"></a>
-        </div>
-
-    </div>
+<!-- margin-top: 92px; -->
+    <div id="container">
 
     <!-- label2 -->
     <img id="withoutlink" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-KHP-topbannercarousel-header.jpg">
     <!-- slideshow1 -->
-    <div id="slide1">
+    <div id="slideshow1">
         <h1>slide1</h1>
     </div>
 
@@ -328,13 +315,13 @@
 
     </div>
     <!-- slide2button -->
-    <div id="slide2">
+    <div id="slideshow2">
         <h1>slide2</h1>
     </div>
     <!-- label9 -->
     <img id="withoutlink" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-KHP-banner1-header.jpg">
     <!-- slide3 -->
-    <div id="slide3">
+    <div id="slideshow3">
         <h1>slide3</h1>
     </div>
     <!-- label10 -->
@@ -373,7 +360,7 @@
     <!-- label11 -->
     <<img id="withoutlink" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-KHP-trendscarousel-header.jpg">
         <!-- slide4 -->
-        <div id="slide4">
+        <div id="slideshow4">
             <h1>Slide4</h1>
         </div>
         <!-- label12 -->
@@ -640,10 +627,46 @@
         <a id="banner" href="../productPage/productPage.html"><img
                 src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-KHP-lastbanner11.jpg"></a>
         <!-- footer-division -->
+    </div>
         <div id="footer_division"></div>
 </body>
 
 </html>
+<script type="module">
+
+
+    // import file from men_slideshow for sliding for slide 1
+
+    import slide1 from '../Kids/Kids slideshow/slideshow1.js'
+    document.getElementById("slideshow1").innerHTML = slide1()
+    // import file from men_slideshow for sliding for slide 2
+
+    // import slide2 from '../IndieFile/indie slideshow/slideshow2.js'
+    // document.getElementById("slideshow2").innerHTML = slide2()
+
+
+    // functionfor slide 1
+    var count = 1;
+    setInterval(function () {
+
+        document.getElementById("radio" + count).checked = true;
+        count++;
+        if (count > 5) {
+            count = 1;
+        }
+    }, 2000)
+    // // function for slide2
+    // var count = 1;
+    // setInterval(function () {
+
+    //     document.getElementById("r" + count).checked = true;
+    //     count++;
+    //     if (count > 5) {
+    //         count = 1;
+    //     }
+    // }, 2000)
+    
+</script>
 
 <script src="../NavbarFiles/scripts/navbar_real.js"></script>
 

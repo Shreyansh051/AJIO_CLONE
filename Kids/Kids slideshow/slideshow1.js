@@ -10,17 +10,17 @@ function slide()
 
         <div class="slide first">
         
-            <img  class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/15102021-D-ILP-festivecollective-sarees-upto80.jpg" alt="">
+            <img  class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/D-bday-banner.jpg" alt="">
         </div>
 
             <div class="slide">
 
-               <img  class="zoom_img"src="https://assets.ajio.com/cms/AJIO/WEB/15102021-D-ILP-festivecollective-templejewellery-upto80.jpg" alt="">
+               <img  class="zoom_img"src="https://assets.ajio.com/cms/AJIO/WEB/01042022-D-KHP-topbannercarousel-p1-sotd-brands-dresses&frocks-halfpricestore.jpg" alt="">
            </div> 
 
            <div class="slide">
 
-               <img  class="zoom_img"src="https://assets.ajio.com/cms/AJIO/WEB/15102021-D-ILP-festivecollective-apparel-upto80.jpg" alt="">
+               <img  class="zoom_img"src="https://assets.ajio.com/cms/AJIO/WEB/01042022-D-KHP-topbannercarousel-p3-categoryday-brands-topwear-starting149.jpg" alt="">
            </div> 
  
 
