@@ -125,7 +125,7 @@ cursor: pointer;
 }
 #subnavbar > div:nth-child(2) > div:nth-child(2) {
 position: absolute;
-right: 15%;
+margin-left: 260px;
 top: 50px;
 color:#2F4254;
 }
