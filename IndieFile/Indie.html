@@ -262,7 +262,7 @@
         <img src="./images/label3.jpg">
     </a>
     <!-- firstSlide -->
-    <div id="firstSlide">
+    <div id="slideshow1">
         <h1>slideshow</h1>
     </div>
     <!-- label4 -->
@@ -284,7 +284,7 @@
     </a>
 
     <!-- SecondSlide -->
-    <div id="SecondSlide">
+    <div id="slideshow2">
         <h1>add Slideshow </h1>
     </div>
     <!-- label6 -->
@@ -345,6 +345,41 @@
 </body>
 
 </html>
+<script type="module">
+
+
+    // import file from men_slideshow for sliding for slide 1
+
+    import slide1 from '../IndieFile/indie slideshow/slideshow1.js'
+    document.getElementById("slideshow1").innerHTML = slide1()
+    // import file from men_slideshow for sliding for slide 2
+
+    import slide2 from '../IndieFile/indie slideshow/slideshow2.js'
+    document.getElementById("slideshow2").innerHTML = slide2()
+
+
+    // functionfor slide 1
+    var count = 1;
+    setInterval(function () {
+
+        document.getElementById("radio" + count).checked = true;
+        count++;
+        if (count > 5) {
+            count = 1;
+        }
+    }, 5000)
+    // function for slide2
+    var count = 1;
+    setInterval(function () {
+
+        document.getElementById("r" + count).checked = true;
+        count++;
+        if (count > 5) {
+            count = 1;
+        }
+    }, 5000)
+    
+</script>
 <script src="../NavbarFiles/scripts/navbar_real.js"></script>
 
 <script type="module">
