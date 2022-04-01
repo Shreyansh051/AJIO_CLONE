@@ -4,230 +4,239 @@
     position: fixed;
     top: 0;
     z-index: 14;
-   
-    
 
 }
-#navbar23>div{
-    
-    margin-left: -8px;
-}
-#container{
-    /* background-color: #27b1a9; */
-    margin-top: 90px; 
-}
-
-
-
-.zoom_img {
+img {
     transition: transform .8s ease;
 }
 
-.zoom_img:hover {
+img:hover {
 transform: scale(1.015);
 
 
     }
-    #main_img{
-        width:100%;
+    /* #navbar23>div{
+    
+        margin-left: -30px;
+    } */
+    #container{
+        /* background-color: #27b1a9; */
+        margin-top: 90px; 
+        overflow: hidden;
     }
+
     #ad_div{
         width:auto;
         display: flex;
     }
+    #ad_div1{
+        width:auto;
+        display: flex;
+    }
     #ad_div>a>img{
-        width:44px;
+        width:338px;
     }
-    #cashback{
-        display: flex;
-        overflow: hidden;
-        width: 1350px;
- 
+    #ad_div1>a>img{
+        width:449px;
     }
-    #container{
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-    
-    }
-    #offer{
+    #flex{
         display: flex;
     }
-    #international_seven{
-        /* background-color: aqua; */
-        height: 500px;
-        width: 100%;
-        display: flex;
-        overflow: hidden;
-    }
-    #international_seven>a>img{
-        width:333px;
+    #spin{
+        width: 675px;
     }
     #nine{
         display: flex;
         flex-wrap: wrap;
     }
-    #nine_first{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: #27b1a9;
-    }
     #nine>a>img{
-     width: 444px;
-    }
-    #nine_first>a>img{
-        width: 444px;
+        width: 448.5px;
        }
-    .slide>a>img{
-     width:1350px
-    }
-    #nine_brandlove>a>img{
-        width: 444px;
-    }
-    #nine_brandlove{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: #27b1a9;
-    }
 
-    #poster{
-        width: 1330px;
-        transition: transform .8s ease;
-    }
-    #poster:hover {
-        transform: scale(1.01);
-        
-        
-            }
-
-            #offer>div>a>img{
-                width:446px
-            }
-
-.slider{
-    width:100%;
-    height: 500px;
-    border-radius: 10px;
+#main_img{
+    width:675px;
 }
-.slides{
-    width: 500%;
-    height: 500px;
-    display: flex;
-    overflow: hidden;
+#poster{
+    width: 1350px;
+    transition: transform .8s ease;
 }
-.slides input{
-    display: none;
+#poster:hover {
+    transform: scale(1.01);
     
-}
-.slide{
-    width:20%;
-    transition: 2s;
-}
-.slide img{
-    width:100%;
-    height: 400px;
-}
-.navigation-manual{
-    position: absolute;
-    width: auto;
-    margin-left:500px;
-    display: flex;
-
-}
-.navigation-manual3{
-    position: absolute;
-    width: auto;
-    margin-left:450px;
-    display: flex;
     
+        }
 
-}
-.manual-btn{
-    height: 1px;
-    width: 10px;
-}
-.manual-btn{
-    border:1px solid rgb(255, 254, 254);
-    background-color: rgb(90, 89, 88);
-    padding-top:5px;
-    padding-right:40px;
-    border-radius:3px;
-    cursor: pointer;
-    transition: 1s;
-    gap:2px;
-   
-    margin-top:450px;
-   
-}
-.manual-btn:not(:last-child){
-    margin-right:15px;
-}
-
-.manual-btn:hover{
-    background-color: rgb(93, 196, 196);
-
-}
-#radio1:checked~.first{
-    margin-left:0;
-}
-#radio2:checked~.first{
-    margin-left:-20%;
-}
-#radio3:checked~.first{
-    margin-left:-40%;
-}
-#radio4:checked~.first{
-    margin-left:-60%;
-}#radio5:checked~.first{
-    margin-left:-80%;
-}
+        #offer>div>a>img{
+            width:446px
+        }
 
 
-#r1:checked~.second{
-    margin-left:0;
-}
-#r2:checked~.second{
-    margin-left:-20%;
-}
-#r3:checked~.second{
-    margin-left:-40%;
-}
-#r4:checked~.second{
-    margin-left:-60%;
-}#r5:checked~.second{
-    margin-left:-80%;
-}
+        .slider{
+            width:100%;
+            height: 500px;
+            border-radius: 10px;
+        }
+        .slides{
+            width: 500%;
+            height: 500px;
+            display: flex;
+            overflow: hidden;
+        }
+        .slides input{
+            display: none;
+            
+        }
+        .slide{
+            width:20%;
+            transition: 2s;
+        }
+        .slide img{
+            width:100%;
+            height: 400px;
+        }
+        .navigation-manual{
+            position: absolute;
+            width: auto;
+            margin-left:530px;
+            display: flex;
+        
+        }
+        .navigation-manual3{
+            position: absolute;
+            width: auto;
+            margin-left:480px;
+            display: flex;
+            
+        
+        }
+        .manual-btn{
+            height: 1px;
+            width: 10px;
+        }
+        .manual-btn{
+            border:1px solid rgb(255, 254, 254);
+            background-color: rgb(90, 89, 88);
+            padding-top:5px;
+            padding-right:40px;
+            border-radius:3px;
+            cursor: pointer;
+            transition: 1s;
+            gap:2px;
+           
+            margin-top:450px;
+           
+        }
+        .manual-btn:not(:last-child){
+            margin-right:15px;
+        }
+        
+        .manual-btn:hover{
+            background-color: rgb(93, 196, 196);
+        
+        }
+        #ad_div>img{
+            width:337px
+        }
+        #radio1:checked~.first{
+            margin-left:0;
+        }
+        #radio2:checked~.first{
+            margin-left:-20%;
+        }
+        #radio3:checked~.first{
+            margin-left:-40%;
+        }
+        #radio4:checked~.first{
+            margin-left:-60%;
+        }#radio5:checked~.first{
+            margin-left:-80%;
+        }
+        #international_seven{
+            /* background-color: aqua; */
+            height: 500px;
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+        }
+        #international_seven>a>img{
+            width:333px;
+        }
 
 
-#ra1:checked~.third{
-    margin-left:0;
-}
-#ra2:checked~.third
-{
-    margin-left:-20%;
-}
-#ra3:checked~.third{
-    margin-left:-40%;
-}
-#ra4:checked~.third{
-    margin-left:-60%;
-}#ra5:checked~.third{
-    margin-left:-80%;
-}
-#ra6:checked~.third{
-    margin-left:-100%;
-}
-#ra7:checked~.third{
-    margin-left:-120%;
-}
-#ra8:checked~.third{
-    margin-left:-140%;
-}
-
-/* 
-navbar css */
+        /* slideshow2 */
+        #r1:checked~.second{
+            margin-left:0;
+        }
+        #r2:checked~.second{
+            margin-left:-20%;
+        }
+        #r3:checked~.second{
+            margin-left:-40%;
+        }
+        #r4:checked~.second{
+            margin-left:-60%;
+        }#r5:checked~.second{
+            margin-left:-80%;
+        }
 
 
+        /* third slide */
+        #ra1:checked~.third{
+            margin-left:0;
+        }
+        #ra2:checked~.third
+        {
+            margin-left:-20%;
+        }
+        #ra3:checked~.third{
+            margin-left:-40%;
+        }
+        #ra4:checked~.third{
+            margin-left:-60%;
+        }#ra5:checked~.third{
+            margin-left:-80%;
+        }
+        #ra6:checked~.third{
+            margin-left:-100%;
+        }
+        #ra7:checked~.third{
+            margin-left:-120%;
+        }
+        #ra8:checked~.third{
+            margin-left:-140%;
+        }
+        
+
+        /* forth slide  */
+
+        #rad1:checked~.four{
+            margin-left:0;
+        }
+        #rad2:checked~.four
+        {
+            margin-left:-20%;
+        }
+        #rad3:checked~.four{
+            margin-left:-40%;
+        }
+        #rad4:checked~.four{
+            margin-left:-60%;
+        }#rad5:checked~.four{
+            margin-left:-80%;
+        }
+        #rad6:checked~.four{
+            margin-left:-100%;
+        }
+        #rad7:checked~.four{
+            margin-left:-120%;
+        }
+        #rad8:checked~.four{
+            margin-left:-140%;
+        }
+
+        /* navbar */
+
+        
 #navbar{
     position: fixed;
     width: 100%;
@@ -249,11 +258,12 @@ navbar css */
 }
 #navbar_ajio_logo {
     width: 130px;
-    height: 37.5px;
-  margin-left: 50%;
+    height:85px;
+  margin-left: 55%;
  padding-left: 5px;
  padding-top: 24px;
- flex-basis: 20%;   
+ flex-basis: 20%;
+ margin-top: -10px;   
 }
 
 #navbar > div:nth-child(n+2):nth-child(-n+6):hover {
@@ -571,10 +581,7 @@ padding-right: 5px;
 
 
 
-
-/* navbar css */
-
-
+        /* navbar end */
 
 /* footercss */
 
@@ -640,6 +647,9 @@ body {
   #lastimage {
     margin-top: -100px;
   }
-  
+  #footer_division{
+      overflow: hidden;
+  }
 /* footer css */
+
 
