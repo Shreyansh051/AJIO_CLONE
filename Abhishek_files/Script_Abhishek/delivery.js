@@ -111,9 +111,9 @@ arrCart.map((ele) => {
           <div class="d1">
           <img src="${ele.display_img}">
           <div class="d2">
-          <p class="date"> ${x} April</p>
-          <p>${ele.brand}</p>
-          <p>${ele.name}</p>
+          <p class="date fsmall "> ${x} April</p>
+          <p class="fsmall">${ele.brand}</p>
+          <p class="fvs">${ele.name}</p>
          
           </div>
           </div>

@@ -396,3 +396,13 @@ button{
 
     
 }
+
+/* other */
+.fsmall{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.fvs{
+    font-size: 12px;
+}

@@ -131,15 +131,15 @@ document.getElementById("b3").addEventListener("click",()=>{
 
 
 document.getElementById("b2").addEventListener('click',function(){
-  console.log('ara')
+  console.log('b2')
   let x1 = document.getElementById('t3')
   x1.innerHTML = ""
-  console.log("wallet")
+ 
   x1.innerHTML += `
      
   <div class="card">
 
-                    <form>
+                    <form id="form">
                     <h3>Add New Card</h3>
                     <p class="tags">Card Number</p>
                     <input class="topTwo padLeft focus" type="text" required>
@@ -187,13 +187,50 @@ document.getElementById("b2").addEventListener('click',function(){
                         <p class="checkbox">Save this card securely</p>
                     </div>
 
-                    <button type="submit" class="donebtn" onclick="theEnd()" >Place Order</button>
+                    <button id="myBtn1" type="submit" class="donebtn"  >Place Order</button>
+                    <button id="myBtn"></button>
+               
+                    <div id="myModal" class="modal">
+
+                       
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h3>Yeah!</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>ORDER PLACED</p>
+                          
+                        </div>
+                        <div class="modal-footer">
+                            <h3>You are Awesome</h3>
+                        </div>
+                        </div>
+                    
+                    </div>
+  
+                    
                 
                     <p class="bottom">By placing this order, you agree to AJIO's T&C</p>
                     </form>
                   </div> 
      
   `
+})
+
+
+let cnt3 = 0
+document.getElementById("checkbox").addEventListener("click",()=>{
+    cnt3++
+    if(cnt3%2 !== 0){ 
+  
+    let p1 = 59.8
+    document.getElementById("price").innerHTML = `<p>&#8377;  ${price-off-p1}<p>`
+    }
+
+    else{
+      document.getElementById("price").innerHTML = `<p>&#8377;  ${price-off}<p>`
+    }
 })
 
 
@@ -228,3 +265,10 @@ document.getElementById("form").addEventListener("submit",function(event){
     event.preventDefault()
      document.getElementById("myBtn").click()
 })
+
+
+function theEnd(){
+  console.log("end")
+  alert('Order Placed')
+ 
+}

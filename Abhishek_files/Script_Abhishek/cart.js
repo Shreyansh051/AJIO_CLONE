@@ -144,7 +144,7 @@ arr.map((ele) =>{
        <p>Savings : Rs.${diffVal}</p>
        <p><s>Rs.${ele.MRP}</s><span>(${ele.discount}&#x25;)</span></p>
        <p id="offer_price"><span>Rs.${ele.offer_price} </span></p>
-       <button onclick="toCloset()">Move to Closet</button>
+       <button onclick="toCloset(${JSON.stringify(ele).split('"').join("&quot;")})">Move to Closet</button>
        </div>
        </div>
      
@@ -366,8 +366,23 @@ document.getElementById("jaadu_btn").addEventListener("click",()=>{
 
 
 // TO CLOSET PAGE
-function toCloset(){
-  window.location.href = "closet.html"
+function toCloset(ele){
+  let arr = JSON.parse(localStorage.getItem("closet")) || []
+   let x1 = false
+   if(arr.length>0){
+    arr.forEach((i)=>{
+        if(i.name === ele.name){
+           x1 = true
+        }
+   })
+  }
+     console.log(x1)
+   if(x1 === false){
+      arr.push(ele)
+      localStorage.setItem("closet",JSON.stringify(arr))
+   }
+
+
 }
 
 
