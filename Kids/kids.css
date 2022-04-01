@@ -18,10 +18,6 @@
     transform: scale(1.02);
     transition: transform 1.2s;
   }
-#label > img {
-    width: 99%;
-  height: 100%;
-}
 
 #grid1 {
   display: grid;
@@ -102,6 +98,7 @@
     transform: scale(1.02);
     transition: transform 1.2s;
 }
+
 /* slides css*/
 #container{
   overflow: hidden;
@@ -226,4 +223,28 @@
 }
 #ra8:checked~.third{
   margin-left:-140%;
+}
+#change>div>a>img{
+  width: 100%;
+  height: 100%;
+}
+#change1>div>a>img{
+  width: 100%;
+  height: 100%;
+}
+#change{
+  display:flex;
+}
+#change1{
+  display:flex;
+}
+#change>div>a>img:hover{
+ 
+  transform: scale(1.02);
+  transition: transform 1.2s;
+}
+#change1>div>a>img:hover{
+
+  transform: scale(1.02);
+  transition: transform 1.2s;
 }
