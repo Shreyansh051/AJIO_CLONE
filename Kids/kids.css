@@ -2,10 +2,11 @@
 #banner > img {
   width: 99%;
   height: 100%;
+  transition: transform 1.2s;
 }
 #banner > img:hover {
     transform: scale(1.02);
-    transition: transform 1.2s;
+   
   }
 #flex1 {
   display: flex;
@@ -134,10 +135,11 @@
 .navigation-manual{
     position: absolute;
     width: auto;
-    margin-left:500px;
+    margin-left:575px;
     display: flex;
    
 }
+
 .navigation-manual3{
     position: absolute;
     width: auto;

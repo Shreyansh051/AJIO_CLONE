@@ -91,7 +91,7 @@ transform: scale(1.015);
     }
 
     #poster{
-        width: 130px;
+        width: 1330px;
         transition: transform .8s ease;
     }
     #poster:hover {
