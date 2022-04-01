@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+       margin: center;
+    }
+    #login{
+        height:30px;
+        width:160px;
+        
+        background-color:rgb(213,162,73);
+        padding:15px 10px 5px 90px;
+        margin:auto;
+        color:white;
+    }
+    #box{
+        display:flex;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+    #container>div{
+        height:35px;
+        width:305px;
+        
+        padding-left: 10px;
+        padding-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+       
+    }
+   
+    #container3{
+        height:500px;
+        width:400px;
+        
+        padding:10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+    #container2>div{
+        height:35px;
+        width:400px;
+        
+        padding-left: 10px;
+        padding-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+    div>p{
+        font-size: 18px;;
+    }
+    #heading{
+        display:flex;
+        justify-content: center;
+
+    }
+    #step1{
+        height:40px;
+        width:300px;
+        
+        padding:6px;
+        padding-left: 10px;
+        font-size: 17px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        
+    }
+    #step2{
+        height:40px;
+        width:400px;
+        
+        padding:6px;
+        padding-left:10px ;
+        font-size: 17px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        
+    }
+    #step3{
+        height:40px;
+        width:400px;
+        
+        padding:6px;
+        padding-left: 10px;
+        font-size: 17px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+       
+        
+    }
+    #search{
+        width:77%;
+        height:30px;
+        border:1px solid black;
+        margin:auto;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 15px;
+        margin-bottom:20px;
+        font-size: 18px;
+    }
+    #need{
+        
+        height:30px;
+        width:300px;
+        
+        margin:auto;
+        font-size: 18px;
+        margin-bottom: 30px;
+        padding-left: 15px;
+    }
+    #freq{
+        height:30px;
+        width:300px;
+        
+        margin:auto;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+   
+   
+</style>
+<body>
+    <div id="need"><b>Need help with your recent orders?</b></div>
+    <div id="login">LOGIN</div>
+    <div id="freq"><b>Frequently Asked Questions</b></div>
+        <div id="search">Search for topics or questions
+            
+        </div>
+
+        <div id="heading">
+            <div id="step1"><b>Step 1:Select Topic</b></div>
+            <div id="step2"><b>Step 2:Select Issue</b></div>
+            <div id="step3"><b>Step 3:Get Assistance</b></div>
+        </div>
+    <div id="box">
+
+    <div id="container">
+        <div id="shipping">Shipping FAQ's</div>
+        <div>Cancellation FAQ's </div>
+        <div>Payment FAQ's</div>
+        <div>Return FAQ's</div>
+        <div>AJIO wallet FAQ's</div>
+        <div>Account & Shopping</div>
+        <div>Loyalty Rewards</div>
+        <div>Precious Jewellery</div>
+        <div>Silver Jwewllery and Articles </div>
+        <div >Gift Card</div>
+    </div>
+    <div id="container2">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+        <div id="box5"></div>
+        <div id="box6"></div>
+        <div id="box7"></div>
+        <div id="box8"></div>
+        <div id="box9"></div>
+        <div id="box10"></div>
+        <div id="box11"></div>
+        <div id="box12"></div>
+        
+        
+    </div>
+    <div id="container3"></div>
+    </div>
+    
+
+    
+</body>
+</html>
+<script>
+    document.querySelector("#shipping").addEventListener("click",myfunction)
+
+    function myfunction(event){
+        event.preventDefault();
+        
+        var maindiv=document.createElement("div")
+        var div1=document.createElement("div")
+        
+        div1.innerText="How long will the delivery take"
+        var div2=document.createElement("div")
+        div2.innerText="How can I track my order?"
+        var div3=document.createElement("div")
+        div3.innerText="Will all the products be shipped out together?"
+        var div4=document.createElement("div")
+        div4.innerText="How much will the shipping cost me?"
+        var div5=document.createElement("div")
+        div5.innerText="Will I have to be personally present to receive my order?"
+        var div6=document.createElement("div")
+        div6.innerText="What should I do if I miss my delivery?"
+        var div7=document.createElement("div")
+        div7.innerText="Do you deliver everywhere in India?"
+        var div8=document.createElement("div")
+        div8.innerText="Do you deliver internationally?"
+        var div9=document.createElement("div")
+        div9.innerText="What delivery carriers do you use?"
+        var div10=document.createElement("div")
+        div10.innerText="Are your products genuine?"
+        var div11=document.createElement("div")
+        div11.innerText="What are the various statuses an order can have?"
+        var div12=document.createElement("div")
+        div12.innerText="The package I received was damaged?"
+        
+        
+        
+
+
+
+
+     //maindiv.append(div1,div2)
+     document.getElementById("box1").append(div1)
+     document.getElementById("box2").append(div2)
+     document.getElementById("box3").append(div3)
+     document.getElementById("box4").append(div4)
+     document.getElementById("box5").append(div5)
+     document.getElementById("box6").append(div6)
+     document.getElementById("box7").append(div7)
+     document.getElementById("box8").append(div8)
+     document.getElementById("box9").append(div9)
+     document.getElementById("box10").append(div10)
+     document.getElementById("box11").append(div11)
+     document.getElementById("box12").append(div12)
+
+        
+        
+
+
+
+    }
+
+
+    document.getElementById("box1").addEventListener("click",select1)
+
+    function select1(event){
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1=document.createElement("div")
+        div1.innerText="Its s really quick! We strive to deliver all our orders / products in the fastest time possible. Depending upon your address, the delivery time may vary between 2 - 9 working days. That still won't stop us from trying to get you your order faster. On each product's display page, you can enter your location's pin code to check when you can expect to receive the delivery."
+        //div1.id="selectIssue1"
+    
+     //main.append(div1)
+     document.getElementById("container3").append(div1)
+     
+        
+    }
+
+   
+    document.getElementById("box2").addEventListener("click",select2)
+
+function select2(event){
+ event.preventDefault()
+ //var main=document.createElement("div")
+ var div1=document.createElement("div")
+ div1.innerText="You can track your order as soon as it is shipped out. To know the status of your item real time, just tap on the tracking link in the email sent to you. Alternatively, you can also login to AJIO.com and visit the ‘My Account' section to know your order status."
+ //div1.id="selectIssue1"
+ 
+  //main.append(div1)
+  var a=document.getElementById("container3")
+  a.innerHTML=null;
+ document.getElementById("container3").append(div1)
+ 
+}
+
+
+
+
+document.getElementById("box3").addEventListener("click",select3)
+
+function select3(event){
+ event.preventDefault()
+ //var main=document.createElement("div")
+ var div1=document.createElement("div")
+ div1.innerText="We try to ship all products of an order together. However, sometimes few products of an order may get dispatched from different locations. If so, we might ship some products out first and ship the remaining in a separate shipment to ensure that you don't wait even a minute longer than you have to. We will notify you each time a shipment is dispatched or it is out for delivery; so that you can track it till we knock on your door."
+ //div1.id="selectIssue1"
+ 
+  //main.append(div1)
+  var a=document.getElementById("container3")
+  a.innerHTML=null;
+ document.getElementById("container3").append(div1)
+ 
+}
+
+
+
+
+document.getElementById("box4").addEventListener("click",select4)
+
+function select4(event){
+ event.preventDefault()
+ //var main=document.createElement("div")
+ var div1=document.createElement("div")
+ div1.innerText="All orders worth ₹1199 or above, will be shipped free of cost. For any orders below ₹1199, a nominal fee of ₹99 would be applied."
+ //div1.id="selectIssue1"
+ 
+  //main.append(div1)
+  var a=document.getElementById("container3")
+  a.innerHTML=null;
+ document.getElementById("container3").append(div1)
+ 
+}
+
+document.getElementById("box5").addEventListener("click",select5)
+
+function select5(event){
+ event.preventDefault()
+ //var main=document.createElement("div")
+ var div1=document.createElement("div")
+ div1.innerText="We recommend that you receive the order yourself to ensure complete satisfaction. In case you are not present, the parcel will be delivered to the person available and this may be confirmed on call with you by our delivery executive. For security and validation, the signature of the receiver will be taken at the time of delivery."
+ //div1.id="selectIssue1"
+ 
+  //main.append(div1)
+  var a=document.getElementById("container3")
+  a.innerHTML=null;
+ document.getElementById("container3").append(div1)
+ 
+}
+
+document.getElementById("box6").addEventListener("click",select6)
+
+function select6(event){
+ event.preventDefault()
+ //var main=document.createElement("div")
+ var div1=document.createElement("div")
+ div1.innerText="We understand that you can’t wait at your delivery address all the time, and that is exactly why we will try to attempt delivering your order thrice; each attempt on a consecutive day. So if you have missed the delivery please do not worry, we will try to make an attempt again."
+ //div1.id="selectIssue1"
+ 
+  //main.append(div1)
+  var a=document.getElementById("container3")
+  a.innerHTML=null;
+ document.getElementById("container3").append(div1)
+ 
+}
+document.getElementById("box7").addEventListener("click",select7)
+
+function select7(event){
+ event.preventDefault()
+ //var main=document.createElement("div")
+ var div1=document.createElement("div")
+ div1.innerText="Sorry, that is not possible at the moment as the system would have already passed the mobile number and address to our warehouse to pack and ship your product. That said, we never say never! You can always cancel the order before it has been packed and can place a new order. Don't worry, there are no cancellation charges."
+ //div1.id="selectIssue1"
+ 
+  //main.append(div1)
+  var a=document.getElementById("container3")
+  a.innerHTML=null;
+ document.getElementById("container3").append(div1)
+ 
+}
+document.getElementById("box8").addEventListener("click",select8)
+
+function select8(event){
+ event.preventDefault()
+ //var main=document.createElement("div")
+ var div1=document.createElement("div")
+ div1.innerText="Few places are not covered for COD by our delivery partners. Any inconvenience you face is regretted. This issue might also occur if the cash amount payable at the time of delivery exceeds a certain limit which is decided by our courier partners. Hence, we request you to always enter your pin code to check the availability of COD in your area. Alternatively, may we suggest an alternate form of payment? Perhaps a Credit Card, Debit Card, or Net Banking. We are not saying that this will be permanent; your pin code might be COD- enabled in the future. Do check!"
+ //div1.id="selectIssue1"
+ 
+  //main.append(div1)
+  var a=document.getElementById("container3")
+  a.innerHTML=null;
+ document.getElementById("container3").append(div1)
+ 
+}
+
+document.getElementById("box9").addEventListener("click",select9)
+
+function select9(event){
+ event.preventDefault()
+ //var main=document.createElement("div")
+ var div1=document.createElement("div")
+ div1.innerText="That's the big dream and we're sure we'll achieve it soon! We strive to deliver to all the pin codes of India. At the time of shopping, please check if your pin code is covered by our Logistics Partner. If not, we would request you to provide an alternate shipping address."
+ //div1.id="selectIssue1"
+ 
+  //main.append(div1)
+  var a=document.getElementById("container3")
+  a.innerHTML=null;
+ document.getElementById("container3").append(div1)
+ 
+}
+
+document.getElementById("box10").addEventListener("click",select10)
+
+function select10(event){
+ event.preventDefault()
+ //var main=document.createElement("div")
+ var div1=document.createElement("div")
+ div1.innerText="You bet! We make sure that our products are 100% Genuine. Along with that, we take each product through a multiple-point quality check before shipping it out to you. That's the last thing you need to worry about! "
+ //div1.id="selectIssue1"
+ 
+  //main.append(div1)
+  var a=document.getElementById("container3")
+  a.innerHTML=null;
+ document.getElementById("container3").append(div1)
+ 
+}
+</script>
