@@ -10,6 +10,7 @@
 }
 
 #container{
+    width:100%;
     /* background-color: #27b1a9; */
     margin-top: 90px; 
 }
@@ -48,35 +49,40 @@ transform: scale(1.015);
     
     }
     #offer{
-        display: flex;
+        display:grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
     }
     #international_seven{
         /* background-color: aqua; */
         height: 500px;
         width: 100%;
-        display: flex;
+        display:grid;
+        grid-template-columns:24% 25% 25% 25%;
         overflow: hidden;
     }
-    #international_seven>a>img{
+    /* #international_seven>a>img{
         width:333px;
-    }
+    } */
     #nine{
-        display: flex;
-        flex-wrap: wrap;
+        display:grid;
+        grid-template-columns:33% 30% 28%;
+        flex-wrap: nowrap
     }
     #nine_first{
-        display: flex;
-        flex-wrap: wrap;
+        display:grid;
+        grid-template-columns:33% 30% 28%;
+        flex-wrap:nowrap;
         background-color: #27b1a9;
     }
-    #nine>a>img{
-     width: 444px;
-    }
-    #nine_first>a>img{
+    /* #nine>a>img{
+     width:auto;
+    } */
+    /* #nine_first>a>img{
         width: 444px;
-       }
+       } */
     .slide>a>img{
-     width:1350px
+     /* width:1350px */
+     width: 100%;
     }
     #nine_brandlove>a>img{
         width: 444px;
@@ -88,7 +94,8 @@ transform: scale(1.015);
     }
 
     #poster{
-        width: 1330px;
+        display: grid;
+        grid-template-columns: 100%;
         transition: transform .8s ease;
     }
     #poster:hover {

@@ -6,20 +6,30 @@ function slide()
             <input type="radio" name="radio_btn1" id="r1">
             <input type="radio" name="radio_btn1" id="r2">
             <input type="radio" name="radio_btn1" id="r3">
+            <input type="radio" name="radio_btn1" id="r4">
+            <input type="radio" name="radio_btn1" id="r5">
           
           
 
 
             <div class="slide second">
-                <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/25092022-D-IHP-bestofbrands-indiepicks-upto80.jpg" alt="">
+                <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/01042022-D-MHP-banner1-p1-min30upto30.jpg" alt="">
             </div>
                 <div class="slide">
 
-                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/INDIE-Fabindia-D.jpg" alt="">
+                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/01042022-D-MHP-banner1-p2-brands-upto70.jpg" alt="">
                </div> 
                <div class="slide">
 
-                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/25092022-D-IHP-bestofbrands-pothys-upto50.jpg" alt="">
+                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/01042022-D-MHP-banner1-p3-watch-brands-upto80.jpg" alt="">
+               </div> 
+               <div class="slide">
+
+                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/01042022-D-MHP-banner1-p4-oakley.jpg" alt="">
+               </div> 
+               <div class="slide">
+
+                   <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/01042022-D-MHP-banner1-p5-ajiogold-brands-upto60.jpg" alt="">
                </div> 
              
                
@@ -39,6 +49,8 @@ manual navigation -->
     <label for="r1" class="manual-btn"></label>
     <label for="r2" class="manual-btn"></label>
     <label for="r3" class="manual-btn"></label>
+    <label for="r4" class="manual-btn"></label>
+    <label for="r5" class="manual-btn"></label>
   
   
 </div>

@@ -186,9 +186,6 @@
 #radio3:checked~.first{
     margin-left:-40%;
 }
-#radio4:checked~.first{
-    margin-left:-60%;
-}
 
 
 #r1:checked~.second{

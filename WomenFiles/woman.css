@@ -57,12 +57,14 @@ transform: scale(1.015);
         width:333px;
     }
     #nine{
-        display: flex;
-        flex-wrap: wrap;
+        display:grid;
+        flex-wrap: nowrap;
+        grid-template-columns:33% 33% 33%;
     }
     #nine_first{
-        display: flex;
-        flex-wrap: wrap;
+        display:grid;
+        flex-wrap: nowrap;
+        grid-template-columns:33% 33% 33%;
         background-color: #27b1a9;
     }
     #nine>a>img{

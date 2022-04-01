@@ -1,10 +1,12 @@
 #Navbar24{
- width: 100px;
- height: 90px;
+
+ height: 100px;
  position:fixed;
  top: 0;
  z-index:14;
+
 }
+
 #navbar{
     position: fixed;
     width: 100%;
@@ -20,18 +22,21 @@
     
 
 }
+
+
 #link{
     text-decoration: none;
     color: black;
 }
 #navbar_ajio_logo {
-    width: 130px;
+    width: 130px;   
     height: 80px;
     /* margin-top: -13px   ; */
   margin-left: 50%;
  padding-left: 5px;
  padding-top: 24px;
  flex-basis: 20%;   
+
 }
 
 #navbar > div:nth-child(n+2):nth-child(-n+6):hover {
