@@ -8,10 +8,7 @@
     
 
 }
-#navbar23>div{
-    
-    margin-left: -8px;
-}
+
 #container{
     /* background-color: #27b1a9; */
     margin-top: 90px; 
@@ -35,9 +32,9 @@ transform: scale(1.015);
         width:auto;
         display: flex;
     }
-    /* #ad_div>a>img{
+    #ad_div>a>img{
         width:44px;
-    } */
+    }
     #cashback{
         display: flex;
         overflow: hidden;
@@ -91,7 +88,7 @@ transform: scale(1.015);
     }
 
     #poster{
-        width: 130px;
+        width: 1330px;
         transition: transform .8s ease;
     }
     #poster:hover {
@@ -224,8 +221,12 @@ transform: scale(1.015);
     margin-left:-140%;
 }
 
-/* 
-navbar css */
+
+
+
+
+/* navbar css */
+
 
 
 /* footercss */

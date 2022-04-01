@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery</title>
+    <link rel="stylesheet" href="../Style_Abhishek/delivery.css">
+</head>
+<body>
+    <div class="navbar">
+        <div onclick="window.location.href='index.html'" class="img">
+            <img   src="https://assets.ajio.com/static/img/Ajio-Logo.svg" alt="">
+        </div>
+        <div class="middle">
+            <div class="m1">
+             <div  class="br">
+            <img  src="https://cdn-icons-png.flaticon.com/128/126/126515.png" alt="">
+            </div>   
+            <span class="line"></span>
+            <div class="br">
+            <img src="https://cdn-icons-png.flaticon.com/128/484/484167.png" alt="">
+        </div>   
+            <span  class="line"></span>
+            <div class="br">
+            <img  src="https://cdn-icons-png.flaticon.com/128/1521/1521755.png" alt="">
+        </div>   
+        </div>
+        </div>
+        <div class="last">
+            <p><a href="#">My account</a></p>
+            <p><a href="#">Sign out</a></p>
+            <p><a href="#">Customer care</a></p>
+            <p><a href="#">Feedback</a></p>
+        </div>
+    </div>
+    <hr class="hr1">
+    <div class="main">
+     <div class="deliveryInfo">
+        <div class="addressAll">
+            <div class="top">
+                <div>
+                    <img class="topImage" src="https://cdn-icons.flaticon.com/png/128/2838/premium/2838912.png?token=exp=1648632704~hmac=614e48768ecbda30cf17d0872fc9abd7" alt="">
+                </div>
+                
+                <div class="topBottom">
+                    <p class="first">
+                        Delivery Address
+                    </p>
+                    <p class="second">
+                        We will deliver your order to this address
+                    </p>
+                </div>
+            </div>
+            <div class="mainAddress">
+                <div class="realMain">
+                    <p class="default">Default</p>
+                    <p id="first">a-14,Indra Nagar, Thatipur</p>
+                    <p id="second">Gwalior,Madhya Pradesh</p>
+                    <p id="third">India - 474011</p>
+                    <p id="fourth">Phone : 6260937287</p>
+                    <!--   Start -->
+                   <!-- Trigger/Open The Modal -->
+                    <button id="myBtn">Change Address</button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Add New Address</h2>
+                        </div>
+                        <div class="modal-body">
+                            <form  id="form">
+                                <input id="flatNo" type="text"  placeholder="Flat No" required  ></br>
+                                <input id="locality" type="text"  placeholder="Loaclity" required></br>
+                                <input id="phoneNo" type="text"  placeholder="Phone NO" required></br>
+                                <input id="pinCode" type="text"  placeholder="Pin Code" required></br>
+                                <input id="city" type="text"  placeholder="City" required></br>
+                                <input id="state" type="text"  placeholder="State" required></br>
+                                <input id="submit" type="submit"></br>
+                                </form>
+                        </div>
+                        <!-- <div class="modal-footer">
+                        <h3>Modal Footer</h3>
+                        </div> -->
+                    </div>
+
+                    </div>
+
+  
+                  
+                    <!--End  -->
+                </div>
+                <div class="static">
+                    <div class="static_chotu">
+                    <p class="top">Cash on delivery available</p>
+                    <p class="bottom">Est Delivery 12 - 14 Apr</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="itemsInfo">
+        <div class="top">
+            <div class="topimg1">
+                <img class="headImage" src="https://cdn-icons.flaticon.com/png/128/3886/premium/3886777.png?token=exp=1648643558~hmac=9461e302c1fb46b31aeb0026361a36ae" alt="">
+            </div>
+            <div class="topBottom">
+                <p class="first">
+                    Expected Delivery
+                </p>
+                <p class="second">
+                    Estimated delivery dates for your order
+                </p>
+            </div>
+        </div>
+
+         <div id="mainItems">
+            
+         </div>
+     </div>
+
+     
+    </div>
+    <div id="info">
+        <div class="mainInfo">
+            <h4>Order Details</h4>
+            <div>
+               <p>Bag Total</p>
+               <p id="bag_total"></p>
+            </div>
+             <div>
+                 <p>Bag Discount</p>
+                 <p id="bag_discount"></p>
+             </div>
+            <div>
+                <p>Delivery</p>
+                <p>Free</p>
+            </div>
+            <div class="boldIt">
+                <p>Total Amount</p>
+                <p id="price"></p>
+            </div>
+            <div>
+                <Button onclick="toPay()">PROCEED TO PAYMENT</Button>
+            </div>
+        </div>
+     </div>
+
+    </div>
+      <hr class="hr1">
+     <div class="footer">
+         <div class="four">
+             <img src="https://cdn-icons-png.flaticon.com/128/2438/2438078.png" alt="">
+             <p class="text">SECURE PAYMENTS</p>
+         </div>
+         <div class="four">
+          <img src="https://cdn-icons-png.flaticon.com/128/4766/4766928.png" alt="">
+          <p class="text">CASH ON DELIVERY</p>
+      </div>
+      <div class="four">
+          <img src="https://cdn-icons-png.flaticon.com/128/1212/1212158.png" alt="">
+          <p class="text">ASSURED QUALITY</p>
+      </div>
+      <div class="four">
+          <img src="https://cdn-icons-png.flaticon.com/128/2271/2271113.png" alt="">
+          <p class="text">EASY RETURNS</p>
+      </div>
+     </div> 
+    
+</body>
+</html>
+<script src="../Script_Abhishek/delivery.js"></script>
+
+
+

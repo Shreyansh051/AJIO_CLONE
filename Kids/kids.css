@@ -1,67 +1,229 @@
 
-#banner>img{
+#banner > img {
+  width: 99%;
+  height: 100%;
+}
+#banner > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#flex1 {
+  display: flex;
+}
+#flex1 > div > a > img {
+  width: 99%;
+  height: 100%;
+}
+#flex1 > div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#label > img {
+    width: 99%;
+  height: 100%;
+}
+
+#grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#grid1 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#grid1> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#grid2 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#grid2> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#grid3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#grid3 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#grid3> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#grid4 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#grid4> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#grid5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#grid5 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#grid5> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#flex2 {
+  display: flex;
+}
+#flex2 > div > a > img {
+    width: 99%;
+  height: 100%;
+}
+#flex2> div > a > img:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+  }
+#withoutlink {
+    width: 99%;
+  height: 100%;
+}
+#withoutlink:hover {
+    transform: scale(1.02);
+    transition: transform 1.2s;
+}
+/* slides css*/
+#container{
+  overflow: hidden;
+}
+.slider{
+     width:100%;
+     height: 500px;
+     border-radius: 10px;
+    
+}
+.slides{
+    width: 500%;
+    height: 480px;
+    display: flex;
+    overflow: hidden;
+    
+   
+}
+.slides input{
+    display: none;
+   
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+
+}
+.slide img{
     width:100%;
-    height: 100%;
+    height: 400px;
+  
 }
-#flex1{
+.navigation-manual{
+    position: absolute;
+    width: auto;
+    margin-left:500px;
     display: flex;
+   
 }
-#flex1>div>a>img{
-    width: 100%;
-    height: 100%;
-}
-#label>img{
-    width: 100%;
-    height: 100%;
-}
-#grid1{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-}
-#grid1>div>a>img{
-    width: 100%;
-    height: 100%;
-}
-#grid2{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-}
-#grid2>div>a>img{
-    width: 100%;
-    height: 100%;
-}
-#grid3{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-}
-#grid3>div>a>img{
-    width: 100%;
-    height: 100%;
-}
-#grid4{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-}
-#grid4>div>a>img{
-    width: 100%;
-    height: 100%;
-}
-#grid5{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-}
-#grid5>div>a>img{
-    width: 100%;
-    height: 100%;
-}
-#flex2{
+.navigation-manual3{
+    position: absolute;
+    width: auto;
+    margin-left:450px;
     display: flex;
+    
+    
 }
-#flex2>div>a>img{
-    width: 100%;
-    height: 100%;
+.manual-btn{
+    height: 1px;
+    width: 10px;
+   
 }
-#withoutlink{
-    width: 100%;
-    height: 100%;  
+.manual-btn{
+    border:1px solid rgb(255, 254, 254);
+    background-color: rgb(90, 89, 88);
+    padding-top:5px;
+    padding-right:40px;
+    border-radius:3px;
+    cursor: pointer;
+    transition: 1s;
+    gap:2px;
+   
+    margin-top:450px;
+   
+   
+}
+.manual-btn:not(:last-child){
+    margin-right:15px;
+   
+}
+
+.manual-btn:hover{
+    background-color: rgb(93, 196, 196);
+   
+}
+#radio1:checked~.first{
+    margin-left:0;
+}
+#radio2:checked~.first{
+    margin-left:-20%;
+}
+#radio3:checked~.first{
+    margin-left:-40%;
+}
+#radio4:checked~.first{
+    margin-left:-60%;
+}
+
+
+#r1:checked~.second{
+    margin-left:0;
+}
+#r2:checked~.second{
+    margin-left:-20%;
+}
+#r3:checked~.second{
+    margin-left:-40%;
+}
+#r4:checked~.second{
+    margin-left:-60%;
+}
+#ra1:checked~.third{
+  margin-left:0;
+}
+#ra2:checked~.third
+{
+  margin-left:-20%;
+}
+#ra3:checked~.third{
+  margin-left:-40%;
+}
+#ra4:checked~.third{
+  margin-left:-60%;
+}#ra5:checked~.third{
+  margin-left:-80%;
+}
+#ra6:checked~.third{
+  margin-left:-100%;
+}
+#ra7:checked~.third{
+  margin-left:-120%;
+}
+#ra8:checked~.third{
+  margin-left:-140%;
 }
