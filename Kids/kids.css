@@ -203,4 +203,27 @@
 #r4:checked~.second{
     margin-left:-60%;
 }
-
+#ra1:checked~.third{
+  margin-left:0;
+}
+#ra2:checked~.third
+{
+  margin-left:-20%;
+}
+#ra3:checked~.third{
+  margin-left:-40%;
+}
+#ra4:checked~.third{
+  margin-left:-60%;
+}#ra5:checked~.third{
+  margin-left:-80%;
+}
+#ra6:checked~.third{
+  margin-left:-100%;
+}
+#ra7:checked~.third{
+  margin-left:-120%;
+}
+#ra8:checked~.third{
+  margin-left:-140%;
+}

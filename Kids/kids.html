@@ -314,16 +314,16 @@
         </div>
 
     </div>
-    <!-- slide2button -->
-    <div id="slideshow2">
-        <h1>slide2</h1>
-    </div>
+    <!-- label -->
+    <img id="withoutlink" src="https://assets.ajio.com/cms/AJIO/WEB/28032021-D-cartpagebanner-relianceones.jpg">
+   
     <!-- label9 -->
     <img id="withoutlink" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-KHP-banner1-header.jpg">
-    <!-- slide3 -->
-    <div id="slideshow3">
-        <h1>slide3</h1>
+     <!-- slide2button -->
+     <div id="slideshow2">
+        <h1>slide2</h1>
     </div>
+    
     <!-- label10 -->
     <img id="withoutlink" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-KHP-discounttiles-header.jpg">
     <!-- grid2 -->
@@ -360,7 +360,7 @@
     <!-- label11 -->
     <<img id="withoutlink" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-KHP-trendscarousel-header.jpg">
         <!-- slide4 -->
-        <div id="slideshow4">
+        <div id="slideshow3">
             <h1>Slide4</h1>
         </div>
         <!-- label12 -->
@@ -635,15 +635,18 @@
 <script type="module">
 
 
-    // import file from men_slideshow for sliding for slide 1
+     // import file from men_slideshow for sliding for slide 1
 
-    import slide1 from '../Kids/Kids slideshow/slideshow1.js'
+     import slide1 from '../Kids/Kids slideshow/slideshow1.js'
     document.getElementById("slideshow1").innerHTML = slide1()
     // import file from men_slideshow for sliding for slide 2
 
-    // import slide2 from '../IndieFile/indie slideshow/slideshow2.js'
-    // document.getElementById("slideshow2").innerHTML = slide2()
+    import slide2 from '../Kids/Kids slideshow/slideshow2.js'
+    document.getElementById("slideshow2").innerHTML = slide2()
 
+// import file from men_slideshow for sliding for slide 3
+    import slide3 from '../Kids/Kids slideshow/slideshow3.js'
+    document.getElementById("slideshow3").innerHTML = slide3()
 
     // functionfor slide 1
     var count = 1;
@@ -655,17 +658,26 @@
             count = 1;
         }
     }, 2000)
-    // // function for slide2
-    // var count = 1;
-    // setInterval(function () {
+    // function for slide2
+    var count = 1;
+    setInterval(function () {
 
-    //     document.getElementById("r" + count).checked = true;
-    //     count++;
-    //     if (count > 5) {
-    //         count = 1;
-    //     }
-    // }, 2000)
-    
+        document.getElementById("r" + count).checked = true;
+        count++;
+        if (count > 5) {
+            count = 1;
+        }
+    }, 2000)
+    // function for slide 3
+    var count = 1;
+    setInterval(function () {
+
+        document.getElementById("ra" + count).checked = true;
+        count++;
+        if (count > 8) {
+            count = 1;
+        }
+    }, 2000)
 </script>
 
 <script src="../NavbarFiles/scripts/navbar_real.js"></script>
