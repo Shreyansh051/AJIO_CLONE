@@ -28,11 +28,11 @@ Github Clone - https://github.com/Shreyansh12Gupta/AJIO_CLONE
 
 ## Blog
 
-Blog  link =>
+Blog  link => 
 
 ## Clone
 
-Clone link =>
+Clone link => https://remarkable-fox-ecb381.netlify.app/
 
 ## Team-Member
 
