@@ -1,37 +1,38 @@
 # AJIO_CLONE
 
-This project is a clone of 	http://www.ajio.com .ajio  is a well known ecomerce company . Founded in 2016  by Mukesh Ambani.
+This project is a clone of http://www.ajio.com .ajio is a well known ecomerce company . Founded in 2016 by Mukesh Ambani.
 
 Tech Stack : The tech Stack we used for creating this website are :-
 
 ## Languages Used
 
-/ Html
-/ JavaScript
-/ CSS
-/ Import Export Modules
-
+- Html
+- JavaScript
+- CSS
+- Import Export Modules
 
 ## Functional Things :
-<1> User Signup Popup/model.
-<2> User Login Popup/model.
-<3>Navbar Using Import Export Modules.
-<4>Products Page.
-<5>Quick View Popup/model
-<6>All types of Sort/Filter Functionality.
-<7>Add to cart Button.
-<8>Multiple Images view on Hovering over images on Products page & Quick view Page.
 
-Clone the repository
+- User Signup Popup/model.
+- User Login Popup/model.
+- Navbar Using Import Export Modules.
+- Products Page.
+- Quick View Popup/model
+- All types of Sort/Filter Functionality.
+- Add to cart Button.
+- Multiple Images view on Hovering over images on Products page & Quick view Page.
 
+##Clone the repository
 
-  Github Clone - https://github.com/Shreyansh12Gupta/AJIO_CLONE
+Github Clone - https://github.com/Shreyansh12Gupta/AJIO_CLONE
 
 ## Blog
-Blog - link -
+
+Blog  link =>
 
 ## Clone
-Clone - link -
+
+Clone link =>
 
 ## Team-Member
 
@@ -44,9 +45,9 @@ Clone - link -
 
   ## Screenshots
 
-![App Screenshot](readimages\Screenshot (633).png)
+![App Screenshot](./readimages/Screenshot%20(501).png)
 
-![App Screenshot](readimages\Screenshot (634) (2).png)
+![App Screenshot](./readimages/Screenshot%20(502).png)
 
 ![App Screenshot](readimages\Screenshot (636).png)
 
@@ -68,6 +69,4 @@ Clone - link -
 
 ![App Screenshot](readimages\Screenshot (509).png)
 
-
-
-                                                 THANK YOU 
+                                                 THANK YOU
