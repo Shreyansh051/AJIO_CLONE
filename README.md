@@ -28,7 +28,7 @@ Github Clone - https://github.com/Shreyansh12Gupta/AJIO_CLONE
 
 ## Blog
 
-Blog  link => 
+Blog  link => https://medium.com/@abhijeethiwale0077/ajio-website-clone-5d5e8c1999d6
 
 ## Clone
 
