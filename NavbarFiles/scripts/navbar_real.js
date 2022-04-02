@@ -62,7 +62,7 @@
     cart_btn.addEventListener("mouseleave", hideCartContainer);
 
     function displayCartContainer() {
-      cart_container.style.visibility = "visible";
+      cart_container.style.visibility = "hidden";
         
       
     }
