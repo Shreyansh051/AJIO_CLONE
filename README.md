@@ -32,7 +32,7 @@ Blog link => https://medium.com/@abhijeethiwale0077/ajio-website-clone-5d5e8c199
 
 ## Clone
 
-Clone link => https://remarkable-fox-ecb381.netlify.app/
+Clone link => https://rad-wisp-02436f.netlify.app
 
 ## Roles & Responsibilities :-
 
