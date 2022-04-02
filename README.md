@@ -44,7 +44,7 @@ footer,kids,indie page, designed& functioned by shreyansh.
 
 Landing page , customer page designed& functioned by Noorbasha.
 
-lending page, Mens page , womens page, designed& functioned by Ayush.
+landing page, Mens page , womens page, designed& functioned by Ayush.
 
 All products page and filter data is designed & functioned by Abhijeet.
 
