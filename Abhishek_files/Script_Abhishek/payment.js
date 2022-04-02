@@ -264,11 +264,19 @@ window.onclick = function(event) {
 document.getElementById("form").addEventListener("submit",function(event){
     event.preventDefault()
      document.getElementById("myBtn").click()
+     setTimeout(() => {
+      window.location.href = '../../index/index.html'
+  }, 2000);
+
 })
 
 
 function theEnd(){
   console.log("end")
   alert('Order Placed')
+
+  setTimeout(() => {
+      window.location.href = '../../index/index.html'
+  }, 100);
  
 }
