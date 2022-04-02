@@ -28,11 +28,11 @@ Github Clone - https://github.com/Shreyansh12Gupta/AJIO_CLONE
 
 ## Blog
 
-Blog  link => https://taupe-kleicha-7e7699.netlify.app/
+Blog  link => 
 
 ## Clone
 
-Clone link =>
+Clone link => https://taupe-kleicha-7e7699.netlify.app/
 
 ## Team-Member
 
