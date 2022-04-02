@@ -28,7 +28,7 @@ Github Clone - https://github.com/Shreyansh12Gupta/AJIO_CLONE
 
 ## Blog
 
-Blog  link =>
+Blog  link => https://taupe-kleicha-7e7699.netlify.app/
 
 ## Clone
 
