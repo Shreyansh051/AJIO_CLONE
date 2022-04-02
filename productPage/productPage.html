@@ -20,11 +20,16 @@
       rel="stylesheet"
     />
 </head>
+<style>
+  #container{
+   padding-top: 100px;
+  }
+</style>
 <body>
   <div id="Navbar">
     <div id="navbar">
-      <div>
-          <img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" id="navbar_ajio_logo">
+      <div onclick="window.location.href='../index/index.html'" >
+          <img style="cursor: pointer;"  src="https://assets.ajio.com/static/img/Ajio-Logo.svg" id="navbar_ajio_logo">
       </div>
       <div  class="one" id="men_link">
           <p>MEN</p>
@@ -67,8 +72,8 @@
                       checkroom
                   </span>
               </div>
-              <div id="cart_icon">
-                  <span class="material-icons-outlined">
+              <div  id="cart_icon">
+                  <span  onclick="window.location.href='../Abhishek_files/Html_Abhishek/cart.html'" class="material-icons-outlined">
                       shopping_bag
                   </span>
               </div>
@@ -532,7 +537,7 @@
 </div>
 
 </div>
-</div>
+
 <div id="pagination">
   <div onclick="decrementPage()">Previous</div>
   <div><p id="pageValue">1</p></div>

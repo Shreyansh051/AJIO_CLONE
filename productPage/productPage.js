@@ -85,7 +85,7 @@ function displayData(DataArray) {
     let img1 = document.createElement("img");
     img1.src = DataArray.display_img;
     img1.style.height = "300px";
-    img1.style.width = "300px"
+    // img1.style.width = "300px"
 
     let quickView = document.createElement("div");
     quickView.setAttribute("id", "quickView");
@@ -131,9 +131,14 @@ function displayData(DataArray) {
     let offer = document.createElement("div");
     offer.append(offer_price, offervalue);
 
+    let btn = document.createElement("button");
+    btn.innerText = "Add to cart"
+    btn.style.cursor = "pointer"
+    btn.style.marginLeft = "10px"
+
     let value = document.createElement("div");
 
-    value.append(price, mrp, discount);
+    value.append(price, mrp, discount,btn);
     value.setAttribute("id", "value");
 
     div.append(brand, name, value, offer);
