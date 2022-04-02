@@ -45,28 +45,15 @@ Clone link =>
 
   ## Screenshots
 
-![App Screenshot](./readimages/Screenshot%20(501).png)
+![App Screenshot](./readimages/Screenshot%201.png)
 
-![App Screenshot](./readimages/Screenshot%20(502).png)
+![App Screenshot](./readimages/Screenshot2%20.png)
 
-![App Screenshot](readimages\Screenshot (636).png)
+![App Screenshot](./readimages/Screenshot%203.png)
 
-![App Screenshot](readimages\Screenshot (638).png)
+![App Screenshot](./readimages/Screenshot4%20.png)
 
-![App Screenshot](readimages\Screenshot (501).png)
+![App Screenshot](./readimages/Screenshot%205.png)
 
-![App Screenshot](readimages\Screenshot (502).png)
-
-![App Screenshot](readimages\Screenshot (504).png)
-
-![App Screenshot](readimages\Screenshot (505).png)
-
-![App Screenshot](readimages\Screenshot (506).png)
-
-![App Screenshot](readimages\Screenshot (507).png)
-
-![App Screenshot](readimages\Screenshot (508).png)
-
-![App Screenshot](readimages\Screenshot (509).png)
 
                                                  THANK YOU
