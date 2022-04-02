@@ -49,7 +49,6 @@
 } */
 #container {
   display: grid;
-
   grid-template-columns: 20% 75%;
   gap: 1%;
   /* justify-content: space-around; */
@@ -223,7 +222,8 @@
 
 #sortBy {
   /* border: 2px solid blue; */
-  width: 300px;
+  /* this will remember */
+  width: 200px;
   margin-top: -35px;
   margin-left: 730px;
   margin-bottom: 15px;
