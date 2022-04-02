@@ -11,7 +11,7 @@
     position: fixed;
     width: 100%;
     background-color: #FFFFFF;
-    height:85px;
+    height: 95px;
     border-top:3px solid #2F4254 ;
     display:flex;
     box-shadow: 0px 0px 5px #9a9a9a;
@@ -89,6 +89,7 @@ margin-right: 30px;
 font-size:13px;
 padding-top: 0px;
 cursor: pointer;
+
 }
 #subnavbar > div:nth-child(1) > div:hover {
 text-decoration: underline;
@@ -136,7 +137,7 @@ color:#2F4254;
 }
 #subnavbar > div:nth-child(2) > div:nth-child(1) > input {
 border-radius: 20px;
-width:280px;
+width: 289px;
 height:30px;
 padding-left: 10px;
 border: 1px solid #333;
@@ -357,4 +358,14 @@ padding-left: 5px;
 padding-right: 5px;
 }
 
+#none {
+    margin-top: -10px;
+    color: black;
+    text-decoration: none;
+}
+#newsite>p{
+    margin-top:5px;
+    color:white;
+    text-decoration: none;
+}
 
