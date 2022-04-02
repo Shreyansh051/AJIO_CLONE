@@ -2,437 +2,273 @@
 let DataArray = [
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210618/OzQx/60cb96f7aeb269a9e3ed655c/-1117Wx1400H-4916357160-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210618/AwPe/60cb98c6f997ddb312cf5556/-1117Wx1400H-4916357160-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210827/yTfi/6129252f7cdb8cb8240a9732/-1117Wx1400H-4919026360-multi-MODEL.jpg",
-      img4: "",
-      brand: "MARVEL",
-      name: "Bend and Flex Iron Man Action Figure",
-      price: 849,
-      MRP: 999,
+        "https://assets.ajio.com/medias/sys_master/root/20211108/C9WC/61890abaaeb2690110ba65fa/home_centre_white_artificial_lily_flower.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20211108/ZOU8/61890abaaeb2690110ba654a/-78Wx98H-463276264-white-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/Blki/6068ca1aaeb269a9e338d7fa/-473Wx593H-461943028-pink-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/Blki/6068ca1aaeb269a9e338d7fa/-473Wx593H-461943028-pink-MODEL4.jpg",
+      brand: "HOME CENTRE",
+      name: "Artificial Lily Flower",
+      price: 424,
+      MRP: 499,
       discount: 15,
-      offer_price: 722,
+      offer_price: 638,
+      color: "white",
+      size: "",
+    },
+    {
+      display_img:
+        "https://assets.ajio.com/medias/sys_master/root/20211122/J7RW/619bbae4f997ddf8f1115fa7/portico_cream_floral_print_cotton_king_size_comforter.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/wR9I/606946fd7cdb8c1f1484121e/-473Wx593H-461411013-pink-MODEL.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/ZyoK/606946fd7cdb8c1f14841189/-473Wx593H-461411013-pink-MODEL2.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/ZyoK/606946fd7cdb8c1f14841189/-473Wx593H-461411013-pink-MODEL3.jpg",
+      brand: "PORTICO",
+      name: "Floral Print Cotton King Size Comforter",
+      price: 5999,
+      MRP: 5999,
+      discount: 0,
+      offer_price: "",
       color: "",
       size: "",
     },
-
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20211009/PvqK/6161d526aeb2692b85c271fd/-1117Wx1400H-4919478310-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20211004/p96u/615b1ba6aeb2692b85a2e1e0/-1117Wx1400H-4919478310-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20211007/RV1R/615ed7e6aeb2692b85b61bd2/-1117Wx1400H-4919478310-multi-MODEL5.jpg",
-      img4: "",
-      brand: "JADA",
-      name: "Marvel 4 Superior Spider-Man Figure",
-      price: 1299,
-      MRP: 1299,
-      discount: 16,
-      offer_price: 1104,
-      color: "",
+        "https://assets.ajio.com/medias/sys_master/root/20210504/5Gz1/6090858cf997dd7b64d16ec2/blanc_9_white_floral_print_single_long_door_curtain.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210504/G9UR/6090858cf997dd7b64d16e1d/-78Wx98H-462360372-white-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210504/5Gz1/6090858cf997dd7b64d16ed4/-78Wx98H-462360372-white-MODEL.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210327/zEBd/605e2f657cdb8c1f146e2603/-473Wx593H-462209198-grey-MODEL4.jpg",
+      brand: "BLANC 9",
+      name: "Floral Print Single Long Door Curtain",
+      price: 909,
+      MRP: 1399,
+      discount: 35,
+      offer_price: 627,
+      color: "white",
       size: "",
     },
-
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/hbb/h90/12885591457822/-1117Wx1400H-4911854580-multi-MODEL4.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/h23/h06/12885591130142/-1117Wx1400H-4911854580-multi-MODEL.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h26/h20/12885589295134/-1117Wx1400H-4911854580-multi-MODEL3.jpg",
-      img4: "",
-      brand: "COLLECTA",
-      name: "Tyrannosaurus Rex Toy",
-      price: 399,
-      MRP: 399,
+        "https://assets.ajio.com/medias/sys_master/root/20210921/390W/6148e834aeb269a26899f89d/portico_multicoloured_therapeia_collection_gel_memory_foam_pillow.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210105/E6qW/5ff49ae7f997dd5c40cad6df/-473Wx593H-441115572-coral-MODEL4.jpg",
+      brand: "PORTICO",
+      name: "Therapeia Collection Gel Memory Faom Pillow ",
+      price: 5999,
+      MRP: 5999,
+      discount: 0,
+      offer_price: "",
+      color: "blue",
+      size: "",
+    },
+    {
+      display_img:
+        "https://assets.ajio.com/medias/sys_master/root/20211119/tM1W/6197dd99aeb2690110ce456f/home_centre_brown_geometric_printed_double_bedsheet.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/P3G9/6068a0217cdb8c1f14791f2b/-473Wx593H-462039472-pink-MODEL4.jpg",
+      brand: "HOME CENTRE",
+      name: "Floral Print Double Comforter",
+      price: 5099,
+      MRP: 5999,
       discount: 15,
-      offer_price: 339,
+      offer_price: "",
+      color: "blue",
+      size: "",
+    },
+    {
+      display_img:
+        "https://assets.ajio.com/medias/sys_master/root/20211024/h3Nt/61756b25f997ddf8f1e5dd05/home_centre_blue_floral_print_double_comforters.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210225/9s4C/6037368af997dd5c40fb0a6b/-473Wx593H-441120181-black-MODEL4.jpg",
+      brand: "HOMESAKE",
+      name: "Geometric Printed Double Bedsheet",
+      price: 4674,
+      MRP: 5499,
+      discount: 15,
+      offer_price: "",
+      color: "brown",
+      size: "",
+    },
+    {
+      display_img:
+        "https://assets.ajio.com/medias/sys_master/root/20220222/Z5Tu/621476a9aeb26921afa9f848/homesake_beige_metal_chandelier_hanging_light_.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/QsWi/60686fbcf997dd7b645e4a56/-473Wx593H-461341411-yellow-MODEL4.jpg",
+      brand: "HOMESAKE",
+      name: "Metal Chandelier Hanging Lights",
+      price: 1200,
+      MRP: 5000,
+      discount: 60,
+      offer_price:1170,
+      color: "brown",
+      size: "",
+    },
+    {
+      display_img:
+        "https://assets.ajio.com/medias/sys_master/root/20211206/oxMP/61ae4af8aeb2690110f69339/home_centre_blue_stainless_steel_manual_pull_chopper.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210529/neK0/60b1715baeb269a9e3cde852/-473Wx593H-462461977-pink-MODEL4.jpg",
+      brand: "HOME CENTRE",
+      name: "Stainless Steel Manual Puli Chopper",
+      price: 594,
+      MRP: 699,
+      discount: 15,
+      offer_price: "",
       color: "",
       size: "",
     },
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/h30/h48/12539920646174/-473Wx593H-4913331260-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/hd2/h88/12539920384030/-473Wx593H-4913331260-multi-MODEL3.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h45/haf/12539921956894/-473Wx593H-4913331260-multi-MODEL4.jpg",
-      img4: "",
-      brand: "Collecta",
-      name: "Giant Lion Figure",
-      price: 420,
-      MRP: 1199,
-      discount: 65,
-      offer_price: 420,
-      color: "Brown",
+        "https://assets.ajio.com/medias/sys_master/root/20211208/la5t/61afb231f997ddf8f1420a7d/home_centre_grey_floral_printed_double_size_bedsheet.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210915/qwvi/6140fb917cdb8cb824243bae/-473Wx593H-469008253-teal-MODEL4.jpg",
+      brand: "HOME CENTRE",
+      name: "Floral Printed Double Size Bedsheet",
+      price: 4674,
+      MRP: 5499,
+      discount: 15,
+      offer_price: "",
+      color: "black",
       size: "",
     },
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210828/asS3/6129754f7cdb8cb8240b0a57/-1117Wx1400H-4914893500-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210827/bmVh/61291d2a7cdb8cb8240a8581/-1117Wx1400H-4914893500-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210827/NQrw/61291e1af997ddce89af831b/-1117Wx1400H-4914893500-multi-MODEL3.jpg",
-      img4: "",
-      brand: "SPIDERMAN",
-      name: "Mash'Ems Spider-Man Sinister 6 S1",
-      price: 729,
-      MRP: 999,
-      discount: 27,
-      offer_price: 620,
-
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210724/yvOl/60fb2ecaf997ddb31237212d/-1117Wx1400H-4913754460-multi-MODEL13.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210724/WqmK/60fb321cf997ddb312373007/-1117Wx1400H-4913754460-multi-MODEL12.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210724/M8JB/60fb26eaaeb269a9e351d65f/-1117Wx1400H-4913754460-multi-MODEL2.jpg",
-      img4: "",
-      brand: "MARVEL",
-      name: "Marvel Mighty Muggs",
-      price: 899,
-      MRP: 999,
-      discount: 10,
-      offer_price: 764,
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/ajio/catalog/5ef383c17cdb8c721b723e8a/-1117Wx1400H-4914893370-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/h14/ha9/17107613843486/-1117Wx1400H-4914893370-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h1b/h9e/17107611353118/-1117Wx1400H-4914893370-multi-MODEL3.jpg",
-      img4: "",
-      brand: "MARVEL",
-      name: "Spider-Man Maximum Venom Toy",
-      price: 1199,
-      MRP: 1999,
-      discount: 30,
-      offer_price: 1000,
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20201005/WHkz/5f7b364faeb269d563d177ca/-1117Wx1400H-4916357030-multi-MODEL5.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20201005/X8Qp/5f7b38e57cdb8c21e3731e9b/-1117Wx1400H-4916357030-multi-MODEL4.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20201005/tm9O/5f7b36def997dd8c8357ac49/-1117Wx1400H-4916357030-multi-MODEL6.jpg",
-      img4: "",
-      brand: "MARVEL",
-      name: "Avengers Thor Hammer",
+        "https://assets.ajio.com/medias/sys_master/root/20210825/3FAb/61253b2f7cdb8cb824049c92/portico_new_york_cream_%26_red_120_gsm_floral_print_single_size_reversible_comforter.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210503/j4uh/60905e56f997dd7b64ce27c1/-473Wx593H-462349393-green-MODEL4.jpg",
+      brand: "PORTICO",
+      name: "120 GSM Floral Print Single Size Reversible Comforter",
       price: 1799,
       MRP: 1999,
-      discount: 10,
-      offer_price: 1529,
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/h2b/hca/12542721458206/-473Wx593H-4912804130-multi-MODEL5.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/h50/h24/12542721785886/-1117Wx1400H-4912804130-multi-MODEL3.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h6c/h30/12542721261598/-1117Wx1400H-4912804130-multi-MODEL4.jpg",
-      img4: "",
-      brand: "WWE",
-      name: "Dean Ambrose Deluxe Action Figure",
-      price: 719,
-      MRP: 1199,
       discount: 40,
-      offer_price: 683,
+      offer_price: "",
+      color: "red",
       size: "",
     },
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210719/DdVm/60f59e15f997ddb3122baac0/-1117Wx1400H-4919597150-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210719/fbHN/60f59c2eaeb269a9e3472eef/-473Wx593H-4919597150-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210719/DW9e/60f5a7e3aeb269a9e34756f9/-1117Wx1400H-4919597150-multi-MODEL3.jpg",
-      img4: "",
-      brand: "FOLKTALES",
-      name: "VI Engraved Bat & Ball",
-      price: 399,
-      MRP: 1199,
-      discount: 65,
-      offer_price: 320,
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210716/5Vx5/60f0a134f997ddb31228bd68/-473Wx593H-4916029460-multi-MODEL2.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210716/gZ34/60f096d8aeb269a9e3446a9b/-1117Wx1400H-4914904310-multi-MODEL.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/ajio/catalog/5ef38c367cdb8c721b7260c8/-1117Wx1400H-4914904330-multi-MODEL.jpg",
-      img4: "",
-      brand: "COLLECTA",
-      name: "88843 Quarter Mare Figurine",
-      price: 899,
-      MRP: 1499,
-      discount: 40,
-      offer_price: 854,
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/h30/h48/12539920646174/-473Wx593H-4913331260-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/hc4/hbe/16305767743518/-473Wx593H-4913965850-multi-MODEL4.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/hf2/h1b/16305757323294/-473Wx593H-4913965850-multi-MODEL.jpg",
-      img4: "",
-      brand: "WICKED",
-      name: "Night Sports Boomerang Led",
-      price: 779,
-      MRP: 1299,
-      discount: 40,
-      offer_price: 420,
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/hbb/h9c/17107621314590/-1117Wx1400H-4914893390-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/h5d/h69/17107625508894/-1117Wx1400H-4914893390-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h6c/hb7/17107627933726/-1117Wx1400H-4914893390-multi-MODEL3.jpg",
-      img4: "",
-      brand: "DISNEY PRINCESS",
-      name: "Fashems Squishy Disney Princess S1",
-      price: 349,
-      MRP: 1199,
-      discount: 65,
-      offer_price: 297,
-      color: "Black",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20201008/vFpJ/5f7e128a7cdb8c21e3759397/-1117Wx1400H-4913934440-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20201008/T6AL/5f7e14dcf997dd8c835b6726/-1117Wx1400H-4913934440-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20201008/Xp4U/5f7e10e0f997dd8c835b4a1b/-1117Wx1400H-4913934440-multi-MODEL3.jpg",
-      img4: "",
-      brand: "AVENGERS",
-      name: "Marvel Avengers Infinity War Thor Stormbreaker Electronic Axe",
-      price: 420,
-      MRP: 1199,
-      discount: 65,
-      offer_price: 420,
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20201008/vFpJ/5f7e128a7cdb8c21e3759397/-1117Wx1400H-4913934440-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/ha7/h28/16908800753694/-473Wx593H-4914911660-multi-MODEL5.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h70/h91/16908801277982/-1117Wx1400H-4914911660-multi-MODEL5.jpg",
-      img4: "",
-      brand: "TREASURE X",
-      name: "Treasure X S1 3 Pack Chest",
-      price: 3799,
-      MRP: 3999,
-      discount: 5,
-      offer_price: 3229,
-    },
-  ];
-
-  //data to display in relevance and what's new
-
-  let arrayDisplay = [
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210618/OzQx/60cb96f7aeb269a9e3ed655c/-1117Wx1400H-4916357160-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210618/AwPe/60cb98c6f997ddb312cf5556/-1117Wx1400H-4916357160-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210827/yTfi/6129252f7cdb8cb8240a9732/-1117Wx1400H-4919026360-multi-MODEL.jpg",
-      img4: "",
-      brand: "MARVEL",
-      name: "Bend and Flex Iron Man Action Figure",
-      price: 849,
+        "https://assets.ajio.com/medias/sys_master/root/20211014/6JBQ/6168720eaeb2690110946562/home_centre_white_marshmallow_solid_bath_mat.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210404/Pusc/606a3b59f997dd7b648117c6/-473Wx593H-461574193-magenta-MODEL4.jpg",
+      brand: "HOME CENTRE",
+      name: "Marshmellow Solid Bath Mat",
+      price: 339,
       MRP: 999,
       discount: 15,
-      offer_price: 722,
-      color: "",
+      offer_price: "",
+      color: "white",
       size: "",
     },
-
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20211009/PvqK/6161d526aeb2692b85c271fd/-1117Wx1400H-4919478310-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20211004/p96u/615b1ba6aeb2692b85a2e1e0/-1117Wx1400H-4919478310-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20211007/RV1R/615ed7e6aeb2692b85b61bd2/-1117Wx1400H-4919478310-multi-MODEL5.jpg",
-      img4: "",
-      brand: "JADA",
-      name: "Marvel 4 Superior Spider-Man Figure",
-      price: 1299,
-      MRP: 1299,
-      discount: 16,
-      offer_price: 1104,
-      color: "",
-      size: "",
-    },
-
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/hbb/h90/12885591457822/-1117Wx1400H-4911854580-multi-MODEL4.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/h23/h06/12885591130142/-1117Wx1400H-4911854580-multi-MODEL.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h26/h20/12885589295134/-1117Wx1400H-4911854580-multi-MODEL3.jpg",
-      img4: "",
-      brand: "COLLECTA",
-      name: "Tyrannosaurus Rex Toy",
-      price: 399,
-      MRP: 399,
+        "https://assets.ajio.com/medias/sys_master/root/20211027/HuH7/6178b085f997ddf8f1ec6fe9/home_centre_multicolour_tranzit_rectangular_wooden__kitchen_trolley.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL4.jpg",
+      brand: "HOME CENTRE",
+      name: "Tranzit Rectangular Wooden Kitchen Trolley",
+      price: 5949,
+      MRP: 6999,
       discount: 15,
-      offer_price: 339,
+      offer_price: "580",
       color: "",
       size: "",
     },
-
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/h30/h48/12539920646174/-473Wx593H-4913331260-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/hd2/h88/12539920384030/-473Wx593H-4913331260-multi-MODEL3.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h45/haf/12539921956894/-473Wx593H-4913331260-multi-MODEL4.jpg",
-      img4: "",
-      brand: "Collecta",
-      name: "Giant Lion Figure",
-      price: 420,
-      MRP: 1199,
-      discount: 65,
-      offer_price: 420,
-      color: "Brown",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210828/asS3/6129754f7cdb8cb8240b0a57/-1117Wx1400H-4914893500-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210827/bmVh/61291d2a7cdb8cb8240a8581/-1117Wx1400H-4914893500-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210827/NQrw/61291e1af997ddce89af831b/-1117Wx1400H-4914893500-multi-MODEL3.jpg",
-      img4: "",
-      brand: "SPIDERMAN",
-      name: "Mash'Ems Spider-Man Sinister 6 S1",
-      price: 729,
-      MRP: 999,
-      discount: 27,
-      offer_price: 620,
-
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210724/yvOl/60fb2ecaf997ddb31237212d/-1117Wx1400H-4913754460-multi-MODEL13.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210724/WqmK/60fb321cf997ddb312373007/-1117Wx1400H-4913754460-multi-MODEL12.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210724/M8JB/60fb26eaaeb269a9e351d65f/-1117Wx1400H-4913754460-multi-MODEL2.jpg",
-      img4: "",
-      brand: "MARVEL",
-      name: "Marvel Mighty Muggs",
-      price: 899,
-      MRP: 999,
-      discount: 10,
-      offer_price: 764,
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/ajio/catalog/5ef383c17cdb8c721b723e8a/-1117Wx1400H-4914893370-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/h14/ha9/17107613843486/-1117Wx1400H-4914893370-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h1b/h9e/17107611353118/-1117Wx1400H-4914893370-multi-MODEL3.jpg",
-      img4: "",
-      brand: "MARVEL",
-      name: "Spider-Man Maximum Venom Toy",
-      price: 1199,
-      MRP: 1999,
+        "https://assets.ajio.com/medias/sys_master/root/20211222/jDvu/61c30d06aeb26901101773f2/divine_casa_blue_and_grey__printed_reversible_single_comforter.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL4.jpg",
+      brand: "Divine Casa",
+      name: "Printed Reversible Comforter",
+      price: 2097,
+      MRP: 2995,
       discount: 30,
-      offer_price: 1000,
+      offer_price: 1447,
+      color: "black",
       size: "",
     },
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20201005/WHkz/5f7b364faeb269d563d177ca/-1117Wx1400H-4916357030-multi-MODEL5.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20201005/X8Qp/5f7b38e57cdb8c21e3731e9b/-1117Wx1400H-4916357030-multi-MODEL4.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20201005/tm9O/5f7b36def997dd8c8357ac49/-1117Wx1400H-4916357030-multi-MODEL6.jpg",
-      img4: "",
-      brand: "MARVEL",
-      name: "Avengers Thor Hammer",
-      price: 1799,
-      MRP: 1999,
-      discount: 10,
-      offer_price: 1529,
+        "https://assets.ajio.com/medias/sys_master/root/20220126/Klbt/61f066b6f997dd66233d2467/-473Wx593H-463717707-peach-MODEL.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210403/TmHE/6068bf437cdb8c1f147b3bb9/-473Wx593H-462051833-black-MODEL4.jpg",
+      brand: "MASPAR",
+      name: "Hues Global Atelier Petal Touch 100 GSM Cotton Quilted Machine Single Quilt",
+      price: 5499,
+      MRP: 5499,
+      discount: 0,
+      offer_price: "",
+      color: "pink",
       size: "",
     },
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/h2b/hca/12542721458206/-473Wx593H-4912804130-multi-MODEL5.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/h50/h24/12542721785886/-1117Wx1400H-4912804130-multi-MODEL3.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h6c/h30/12542721261598/-1117Wx1400H-4912804130-multi-MODEL4.jpg",
-      img4: "",
-      brand: "WWE",
-      name: "Dean Ambrose Deluxe Action Figure",
-      price: 719,
+        "https://assets.ajio.com/medias/sys_master/root/20220129/msTn/61f4fa4faeb2695cdd3e4710/arrabi_brown_floral_print_bedsheet_with_2_pillow_covers.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210404/qmuk/606a4727aeb269a9e35418c9/-473Wx593H-461387645-black-MODEL4.jpg",
+      brand: "Divine Casa",
+      name: "Microfible Ployster Bedsheet",
+      price: 929,
+      MRP: 3299,
+      discount: 72,
+      offer_price: 924,
+      color: "blue",
+      size: "",
+    },
+    {
+      display_img:
+        "https://assets.ajio.com/medias/sys_master/root/20220217/kGlX/620d62f9aeb26921af9c1823/wallopedia_yellow_decorative_wall_sticker_wallpaper.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210615/lUNc/60c7f75ef997ddb312caa42c/-473Wx593H-462514669-maroon-MODEL4.jpg",
+      brand: "WALLOPEDIA",
+      name: "Decorative Wall Sticker Wallpaper",
+      price: 326,
+      MRP: 1550,
+      discount: 75,
+      offer_price: 326,
+      color: "yellow",
+      size: "",
+    },
+    {
+      display_img:
+        "https://assets.ajio.com/medias/sys_master/root/20211116/qeuw/6192b34daeb2690110c55778/good_homes_navy_heart_printed_bed_sheet_%26_pillow_covers.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210518/nfTa/60a3b54df997ddb312a0d8c6/-473Wx593H-462422644-blue-MODEL4.jpg",
+      brand: "Divine Casa",
+      name: "Heart Printed Bedsheet",
+      price: 540,
       MRP: 1199,
-      discount: 40,
-      offer_price: 683,
+      discount:55,
+      offer_price: 384,
+      color: "blue",
       size: "",
     },
     {
       display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210719/DdVm/60f59e15f997ddb3122baac0/-1117Wx1400H-4919597150-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210719/fbHN/60f59c2eaeb269a9e3472eef/-473Wx593H-4919597150-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20210719/DW9e/60f5a7e3aeb269a9e34756f9/-1117Wx1400H-4919597150-multi-MODEL3.jpg",
-      img4: "",
-      brand: "FOLKTALES",
-      name: "VI Engraved Bat & Ball",
-      price: 399,
-      MRP: 1199,
-      discount: 65,
-      offer_price: 320,
+        "https://assets.ajio.com/medias/sys_master/root/20211203/uWdt/61aa6565f997ddf8f136488c/portico_multicoloured_printed_bedsheet_with_2_pillow_covers.jpg",
+      img2: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL2.jpg",
+      img3: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL3.jpg",
+      img4: "https://assets.ajio.com/medias/sys_master/root/20210112/Ua2T/5ffca1737cdb8c1f1425d014/-473Wx593H-441112518-jetblack-MODEL4.jpg",
+      brand: "PORTICO",
+      name: "Printed Beadsheet With Two Pillow",
+      price: 800,
+      MRP:1599,
+      discount: 0,
+      offer_price: "380",
+      color: "red",
       size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20210716/5Vx5/60f0a134f997ddb31228bd68/-473Wx593H-4916029460-multi-MODEL2.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20210716/gZ34/60f096d8aeb269a9e3446a9b/-1117Wx1400H-4914904310-multi-MODEL.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/ajio/catalog/5ef38c367cdb8c721b7260c8/-1117Wx1400H-4914904330-multi-MODEL.jpg",
-      img4: "",
-      brand: "COLLECTA",
-      name: "88843 Quarter Mare Figurine",
-      price: 899,
-      MRP: 1499,
-      discount: 40,
-      offer_price: 854,
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/h30/h48/12539920646174/-473Wx593H-4913331260-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/hc4/hbe/16305767743518/-473Wx593H-4913965850-multi-MODEL4.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/hf2/h1b/16305757323294/-473Wx593H-4913965850-multi-MODEL.jpg",
-      img4: "",
-      brand: "WICKED",
-      name: "Night Sports Boomerang Led",
-      price: 779,
-      MRP: 1299,
-      discount: 40,
-      offer_price: 420,
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/hbb/h9c/17107621314590/-1117Wx1400H-4914893390-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/h5d/h69/17107625508894/-1117Wx1400H-4914893390-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h6c/hb7/17107627933726/-1117Wx1400H-4914893390-multi-MODEL3.jpg",
-      img4: "",
-      brand: "DISNEY PRINCESS",
-      name: "Fashems Squishy Disney Princess S1",
-      price: 349,
-      MRP: 1199,
-      discount: 65,
-      offer_price: 297,
-      color: "Black",
-      size: "",
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20201008/vFpJ/5f7e128a7cdb8c21e3759397/-1117Wx1400H-4913934440-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/20201008/T6AL/5f7e14dcf997dd8c835b6726/-1117Wx1400H-4913934440-multi-MODEL2.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/20201008/Xp4U/5f7e10e0f997dd8c835b4a1b/-1117Wx1400H-4913934440-multi-MODEL3.jpg",
-      img4: "",
-      brand: "AVENGERS",
-      name: "Marvel Avengers Infinity War Thor Stormbreaker Electronic Axe",
-      price: 420,
-      MRP: 1199,
-      discount: 65,
-      offer_price: 420,
-    },
-    {
-      display_img:
-        "https://assets.ajio.com/medias/sys_master/root/20201008/vFpJ/5f7e128a7cdb8c21e3759397/-1117Wx1400H-4913934440-multi-MODEL.jpg",
-      img2: "https://assets.ajio.com/medias/sys_master/root/ha7/h28/16908800753694/-473Wx593H-4914911660-multi-MODEL5.jpg",
-      img3: "https://assets.ajio.com/medias/sys_master/root/h70/h91/16908801277982/-1117Wx1400H-4914911660-multi-MODEL5.jpg",
-      img4: "",
-      brand: "TREASURE X",
-      name: "Treasure X S1 3 Pack Chest",
-      price: 3799,
-      MRP: 3999,
-      discount: 5,
-      offer_price: 3229,
     },
   ];
 
@@ -661,12 +497,13 @@ function cols5() {
   
   
       let countfort = 0;
-      function marvel(DataArray) {
+      function homecentre(DataArray) {
+        console.log("arrarasdfsdf", DataArray);
         if (countfort % 2 == 0) {
           countfort++;
           let brand = [];
           DataArray.forEach((ele) => {
-            if (ele.brand == "MARVEL") {
+            if (ele.brand == "HOME CENTRE") {
               console.log(ele.brand);
               brand.push(ele);
             }
@@ -684,13 +521,13 @@ function cols5() {
       }
   
       let countlevis = 0;
-      function collecta(DataArray) {
+      function divineCasa(DataArray) {
         console.log(DataArray);
         if (countlevis % 2 == 0) {
           countlevis++;
           let brand = [];
           DataArray.forEach((ele) => {
-            if (ele.brand == "COLLECTA" || ele.brand == "Collecta") {
+            if (ele.brand == "Divine Casa") {
               console.log(ele.brand);
               brand.push(ele);
             }
@@ -705,14 +542,14 @@ function cols5() {
         }
       }
   
-      let counthigh = 0;
-      function avengers(DataArray) {
+      let countPortico = 0;
+      function portico(DataArray) {
         console.log(DataArray);
-        if (counthigh % 2 == 0) {
-          counthigh++;
+        if (countPortico % 2 == 0) {
+          countPortico++;
           let brand = [];
           array.forEach((ele) => {
-            if (ele.brand == "AVENGERS") {
+            if (ele.brand == "PORTICO") {
               console.log(ele.brand);
               brand.push(ele);
             }
@@ -721,20 +558,20 @@ function cols5() {
           parent.innerHTML = "";
           displayData(brand);
         } else {
-          counthigh++;
+          countPortico++;
           parent.innerHTML = "";
           displayData(DataArray);
         }
       }
   
       let countperform = 0;
-      function spiderman(DataArray) {
+      function homeSake(DataArray) {
         console.log(DataArray);
         if (countperform % 2 == 0) {
           countperform++;
           let brand = [];
           DataArray.forEach((ele) => {
-            if (ele.brand == "SPIDERMAN") {
+            if (ele.brand == "HOMESAKE") {
               console.log(ele.brand);
               brand.push(ele);
             }
@@ -750,13 +587,13 @@ function cols5() {
       }
   
       let countTerrain = 0;
-      function wwe(DataArray) {
+      function blanc(DataArray) {
         console.log(DataArray);
         if (countTerrain % 2 == 0) {
           countTerrain++;
           let brand = [];
           DataArray.forEach((ele) => {
-            if (ele.brand == "WWE") {
+            if (ele.brand == "BLANC9") {
               console.log(ele.brand);
               brand.push(ele);
             }

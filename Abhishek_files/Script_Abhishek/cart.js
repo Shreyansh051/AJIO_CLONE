@@ -28,71 +28,70 @@ let arrCart = [
         "updatedAt": {
           "$date": "2021-12-14T10:19:17.427Z"
         }
-      },
-
-      {
-        "_id": {
-          "$oid": "61b8804cd599c29bf7d14a11"
-        },
-        "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/display.jpeg",
-        "images": [
-          "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img1.jpeg",
-          "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img2.jpeg",
-          "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img3.jpeg"
-        ],
-        "name": "Quilted Zip-Front Jackets with Insert Pockets",
-        "brand": "PERFKT-U",
-        "price": 1033,
-         "quantity" : 1,
-         "size": "S",
-        "MRP": 3333,
-        "discount": 69,
-        "offer_price": 1000,
-        "color": "",
-        "category": "MEN",
-        "sub_category": "Jackets & Coats",
-        "createdAt": {
-          "$date": "2021-12-14T11:30:20.601Z"
-        },
-        "updatedAt": {
-          "$date": "2021-12-14T11:30:20.601Z"
-        }
-      },
-      
-      {
-        "_id": {
-          "$oid": "61b87f8bd599c29bf7d14a0e"
-        },
-        "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/display.jpeg",
-        "images": [
-          "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/img1.jpeg",
-          "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/img2.jpeg",
-          "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/img3.jpeg"
-        ],
-        "name": "Panelled Zip-Front Training Tracksuit Jacket",
-        "brand": "PERFORMAX",
-        "price": 1349,
-         "quantity" : 1,
-         "size": "M",
-        "MRP": 1499,
-        "discount": 10,
-        "offer_price": 1274,
-        "color": "Jet-Black",
-        "category": "MEN",
-        "sub_category": "Jackets & Coats",
-        "createdAt": {
-          "$date": "2021-12-14T11:27:07.643Z"
-        },
-        "updatedAt": {
-          "$date": "2021-12-14T11:27:07.643Z"
-        }
       }
+
+      // {
+      //   "_id": {
+      //     "$oid": "61b87f8bd599c29bf7d14a0e"
+      //   },
+      //   "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/display.jpeg",
+      //   "images": [
+      //     "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/img1.jpeg",
+      //     "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/img2.jpeg",
+      //     "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product2/img3.jpeg"
+      //   ],
+      //   "name": "Panelled Zip-Front Training Tracksuit Jacket",
+      //   "brand": "PERFORMAX",
+      //   "price": 1349,
+      //    "quantity" : 1,
+      //    "size": "M",
+      //   "MRP": 1499,
+      //   "discount": 10,
+      //   "offer_price": 1274,
+      //   "color": "Jet-Black",
+      //   "category": "MEN",
+      //   "sub_category": "Jackets & Coats",
+      //   "createdAt": {
+      //     "$date": "2021-12-14T11:27:07.643Z"
+      //   },
+      //   "updatedAt": {
+      //     "$date": "2021-12-14T11:27:07.643Z"
+      //   }
+      // },
+      // {
+      //   "_id": {
+      //     "$oid": "61b8804cd599c29bf7d14a11"
+      //   },
+      //   "display_img": "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/display.jpeg",
+      //   "images": [
+      //     "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img1.jpeg",
+      //     "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img2.jpeg",
+      //     "https://raw.githubusercontent.com/alhassan069/AJIO/main/src/Public/images/mensImages/product3/img3.jpeg"
+      //   ],
+      //   "name": "Quilted Zip-Front Jackets with Insert Pockets",
+      //   "brand": "PERFKT-U",
+      //   "price": 1033,
+      //    "quantity" : 1,
+      //    "size": "S",
+      //   "MRP": 3333,
+      //   "discount": 69,
+      //   "offer_price": 1000,
+      //   "color": "",
+      //   "category": "MEN",
+      //   "sub_category": "Jackets & Coats",
+      //   "createdAt": {
+      //     "$date": "2021-12-14T11:30:20.601Z"
+      //   },
+      //   "updatedAt": {
+      //     "$date": "2021-12-14T11:30:20.601Z"
+      //   }
+      // },
 
 
 
 ]
 
-// localStorage.setItem("cart",JSON.stringify(arrCart))
+localStorage.setItem("cart",JSON.stringify(arrCart))
 // localStorage.clear()
 
 
@@ -145,7 +144,7 @@ arr.map((ele) =>{
        <p>Savings : Rs.${diffVal}</p>
        <p><s>Rs.${ele.MRP}</s><span>(${ele.discount}&#x25;)</span></p>
        <p id="offer_price"><span>Rs.${ele.offer_price} </span></p>
-       <button onclick="toCloset(${JSON.stringify(ele).split('"').join("&quot;")})">Move to Closet</button>
+       <button onclick="toCloset()">Move to Closet</button>
        </div>
        </div>
      
@@ -367,23 +366,8 @@ document.getElementById("jaadu_btn").addEventListener("click",()=>{
 
 
 // TO CLOSET PAGE
-function toCloset(ele){
-  let arr = JSON.parse(localStorage.getItem("closet")) || []
-   let x1 = false
-   if(arr.length>0){
-    arr.forEach((i)=>{
-        if(i.name === ele.name){
-           x1 = true
-        }
-   })
-  }
-     console.log(x1)
-   if(x1 === false){
-      arr.push(ele)
-      localStorage.setItem("closet",JSON.stringify(arr))
-   }
-
-
+function toCloset(){
+  window.location.href = "closet.html"
 }
 
 

@@ -565,7 +565,6 @@ function cols5() {
   
       let img1 = document.createElement("img");
       img1.src = DataArray.display_img;
-      img1.style.height = "300px";
       img1.style.width = "300px"
   
       let quickView = document.createElement("div");

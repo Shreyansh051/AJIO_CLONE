@@ -5,31 +5,158 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href=./style_a/men.css>
+    <title>AJIO</title>
+    <!-- footer links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../FooterFiles/footer.css">
+    <!-- navbar links -->
+    <link rel="stylesheet" href="../NavbarFiles/styles/navbar_real.css">
     <link rel="icon" href="https://assets.ajio.com/static/img/favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
 </head>
+<style>
+    body {
+        margin: center;
+    }
+
+    #login {
+        height: 30px;
+        width: 160px;
+
+        background-color: rgb(213, 162, 73);
+        padding: 15px 10px 5px 90px;
+        margin: auto;
+        color: white;
+    }
+
+    #box {
+        display: flex;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+
+    #container>div {
+        height: 35px;
+        width: 305px;
+
+        padding-left: 10px;
+        padding-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+    }
+
+    #container3 {
+        height: 500px;
+        width: 400px;
+
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+
+    #container2>div {
+        height: 35px;
+        width: 400px;
+
+        padding-left: 10px;
+        padding-top: 5px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+
+    /* div>p{
+        font-size: 18px;;
+    } */
+    #heading {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #step1 {
+        height: 40px;
+        width: 300px;
+
+        padding: 6px;
+        padding-left: 10px;
+        font-size: 17px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+    }
+
+    #step2 {
+        height: 40px;
+        width: 400px;
+
+        padding: 6px;
+        padding-left: 10px;
+        font-size: 17px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+    }
+
+    #step3 {
+        height: 40px;
+        width: 400px;
+
+        padding: 6px;
+        padding-left: 10px;
+        font-size: 17px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+
+    }
+
+    #search {
+        width: 77%;
+        height: 30px;
+        border: 1px solid black;
+        margin: auto;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    #need {
+
+        height: 30px;
+        width: 300px;
+        margin: auto;
+        font-size: 18px;
+        margin-bottom: 30px;
+        padding-left: 15px;
+    }
+
+    #freq {
+        height: 30px;
+        width: 300px;
+
+        margin: auto;
+        font-size: 18px;
+        margin-top: 180px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+</style>
 
 <body>
-
-    <div id="navbar23">
+    <!-- navbar -->
+    <div id="Navbar24">
         <div id="Navbar">
             <div id="navbar">
                 <div>
-                    <a href="../index/index.html"><img src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
+                    <a href="../index.html"><img src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
                             id="navbar_ajio_logo"></a>
                 </div>
                 <div class="one" id="men_link">
-                    <a id="link" href="men.html">
+                    <a id="link" href="../MenFiles/men.html">
                         <p>MEN</p>
                     </a>
                 </div>
                 <div class="one" id="women_link">
-                    <a id="link" href="women.html">
+                    <a id="link" href="../WomenFiles/women.html">
                         <p>WOMEN</p>
                     </a>
                 </div>
@@ -39,7 +166,7 @@
                     </a>
                 </div>
                 <div class="one" id="indie_link">
-                    <a id="link" href="../IndieFile/Indie.html">
+                    <a id="link" href="Indie.html">
                         <p>INDIE</p>
                     </a>
                 </div>
@@ -51,13 +178,23 @@
                 <div id="subnavbar">
                     <div id="navbar_info">
                         <div>
-                            <p> visit AJIOLUXE</p>
+                            <a id="newsite" href="https://luxe.ajio.com/">
+                                <p> visit AJIOLUXE</p>
+                            </a>
                         </div>
                         <div>
-                            <p>Customer Care</p>
+                            <a id="none" href="#">
+                                <p>Customer Care</p>
+                            </a>
                         </div>
                         <div id="navbar_signin_btn">
                             <p>Sign In / Join AJIO</p>
+                        </div>
+                        <div>
+                            <p id="my account"> My account</p>
+                        </div>
+                        <div>
+                            <p id="hello_user">Hello User</p>
                         </div>
                     </div>
                     <div>
@@ -266,711 +403,290 @@
             </div>
         </div>
     </div>
-    </div>
-    <div id="container">
 
-        <div class="zoom_img">
-            <a href="./productPage/productPage.html"><img id="main_img"
-                    src="https://assets.ajio.com/cms/AJIO/WEB/28032022-D-MHP-topbanner-allstarsale-extension.gif">
-            </a>
+    <!-- navbarend -->
+
+
+    <div id="freq"><b>Frequently Asked Questions</b></div>
+    <div id="search">Search for topics or questions
+
+    </div>
+
+    <div id="heading">
+        <div id="step1"><b>Step 1:Select Topic</b></div>
+        <div id="step2"><b>Step 2:Select Issue</b></div>
+        <div id="step3"><b>Step 3:Get Assistance</b></div>
+    </div>
+    <div id="box">
+
+        <div id="container">
+            <div id="shipping">Shipping FAQ's</div>
+            <div>Cancellation FAQ's </div>
+            <div>Payment FAQ's</div>
+            <div>Return FAQ's</div>
+            <div>AJIO wallet FAQ's</div>
+            <div>Account & Shopping</div>
+            <div>Loyalty Rewards</div>
+            <div>Precious Jewellery</div>
+            <div>Silver Jwewllery and Articles </div>
+            <div>Gift Card</div>
         </div>
-        <div id="ad_div">
-            <div class="zoom_img">
-                <img id="main_img"
-                    src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-Unisex-Topstrips-InstantDiscount.jpg">
-            </div>
+        <div id="container2">
+            <div id="box1"></div>
+            <div id="box2"></div>
+            <div id="box3"></div>
+            <div id="box4"></div>
+            <div id="box5"></div>
+            <div id="box6"></div>
+            <div id="box7"></div>
+            <div id="box8"></div>
+            <div id="box9"></div>
+            <div id="box10"></div>
+            <div id="box11"></div>
+            <div id="box12"></div>
 
-            <div class="zoom_img">
 
-                <img id="main_img" src="https://assets.ajio.com/cms/AJIO/WEB/onecard-719x148.jpg">
-            </div>
         </div>
-        <div class="zoom_img" name="star_offer_of_the_day">
-            <img id="main_img" src="https://assets.ajio.com/cms/AJIO/WEB/Star-offers-of-the-day.jpg">
-        </div>
-
-        <div id="slideshow1"></div>
-
-        <div class="zoom_img">
-            <img src="https://assets.ajio.com/cms/AJIO/WEB/15032022-D-Unisex-Bingeonthebestsellers-Header.jpg">
-        </div>
-        <a href="./productPage/productPage.html">
-            <div class="zoom_img">
-                <img
-                    src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-hero./productPage/productPage-bestsellers-upto70.jpg">
-        </a>
-    </div>
-    <div id="cashback">
-        <div id="cashback_img">
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/mobiwik-719-x-148.jpg">
-        </div>
-        <div id="cashback_img">
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/Paytm-719x148.jpg">
-        </div>
-        <div id="cashback_img">
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/040asas2022-D-unisex-ajiomania-bankoffers-relianceone.jpg">
-        </div>
-    </div>
-    <div>
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/Jazz%20it%20up%20with%20star%20deals.jpg">
-    </div>
-    <div id="slideshow2"> </div>
-
-
-    <div>
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/glamourous%20offer%20wait.jpg">
+        <div id="container3"></div>
     </div>
 
-    <div id="offer">
-
-        <div>
-            <a href="./productPage/productPage.html">
-
-                <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-discountstore-min80.jpg">
-            </a>
-        </div>
-        <div>
-            <a href="./productPage/productPage.html">
-
-                <img class="zoom_img"
-                    src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-discountstore-under499s.jpg">
-            </a>
-        </div>
-        <div>
-            <a href="./productPage/productPage.html">
-
-                <img class="zoom_img"
-                    src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-discountstore-min70s.jpg">
-            </a>
-        </div>
-    </div>
-
-    <div>
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/Our-exclusive-brands-blue.jpg">
-    </div>
-
-    <div id="slideshow3"></div>
-
-
-
-    <div>
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/internationa-heartrobes.jpg">
-    </div>
-
-
-    <div id="international_seven">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-internationalbrands-gas-min30.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-internationalbrands-gant-upto60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-internationalbrands-superdry-upto50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-internationalbrands-bhpc-upto50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-internationalbrands-gstar-upto50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-internationalbrands-marks&spencer-upto60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-internationalbrands-lacoste-upto50.jpg">
-        </a>
-    </div>
-
-    <div id="international_seven">
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-instaworthybrands-jack&jones-4060.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-instaworthybrands-levis-3060.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-instaworthybrands-reebok-3060.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-instaworthybrands-selectedhomme-upto60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-instaworthybrands-theindiangarageco-min50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-instaworthybrands-spykar-4070.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-instaworthybrands-ketch-min50.jpg">
-        </a>
-    </div>
-
-    <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/hottest-sttyles.jpg">
-    <div id="international_seven">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-fashionablebrands-louisphillipe-3050s.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-fashionablebrands-allensolly-min40.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-fashionablebrands-arrow-upt60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-fashionablebrands-dennislingo-min60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-fashionablebrands-hubberholme-min50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-fashionablebrands-hubberholme-min50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-fashionablebrands-bullmer-min50.jpg">
-        </a>
-    </div>
-
-    <div>
-
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/exclusively-on-AJIO.jpg">
-    </div>
-
-    <div id="international_seven">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exclusivelyonajio-johnplayers-upto70.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exclusivelyonajio-leecopper-upto70.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exclusivelyonajio-altheory-upto70.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exclusivelyonajio-netplay-upto70.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exclusivelyonajio-dnmx-upto70.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exclusivelyonajio-performax-upto70.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exclusivelyonajio-samav-upto66.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exclusivelyonajio-teamspirit-upto70.jpg">
-        </a>
-    </div>
-
-    <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/It's%20a%20star%20studded%20affair.jpg">
-    <div id="international_seven">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-celebassociation-puma-4060.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-celebassociation-asics-upto50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-celebassociation-fila-3060.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-celebassociation-ecko-upto50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-celebassociation-uspa-3050.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-celebassociation-asian-min50.jpg">
-        </a>
-
-
-    </div>
-    <div>
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/most-popular.jpg">
-    </div>
-    <div id="international_seven">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-westernwear-westernwearstore.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-westernwear-tshirts.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-westernwear-blazers&coats.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-westernwear-jeasn&trousers.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-westernwear-produkt.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-westernwear-scotch&soda.jpg">
-        </a>
-
-    </div>
-    <div>
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/Fab%20footwear.jpg">
-    </div>
-    <div id="international_seven">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-footwear-sports&casualshoes.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-footwear-sandals&flipflops.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-footwear-converse-upto60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-footwear-rossobrunello-upto30.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-footwear-liberty-upto50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-footwear-premiumfootwear.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-footwear-birkenstock.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-footwear-vans-upto50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-footwear-redtape-upto80.jpg">
-        </a>
-    </div>
-    <div>
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/discover-online-stores.jpg">
-
-    </div>
-    <div id="international_seven">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-discoveronlinestores-trends.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-discoveronlinestores-ajiogold.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-discoveronlinestores-menwardroberefresh.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-discoveronlinestores-max.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-discoveronlinestores-watches.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-discoveronlinestores-sneakerhood.jpg">
-        </a>
-
-    </div>
-    <div>
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/Brand-love.jpg">
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-premiumbrands-uspa-min40.jpg">
-        </a>
-    </div>
-
-    <div id="nine">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-premiumbrands-lifestyle-min50s.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-premiumbrands-adidasoriginals-upto50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-premiumbrands-rarerabbit-upto50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-premiumbrands-lifestyle-min50s.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-premiumbrands-vanheusen-min40.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-premiumbrands-cantabil-min50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-premiumbrands-elpaso-min65.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/15032022-D-MHP-brandlove-clarks-3050.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-premiumbrands-mufti-min40.jpg">
-        </a>
-    </div>
-
-    <div>
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/ethnicwear-musthaves.jpg">
-    </div>
-    <div id="international_seven">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-ethnicwear-festiveethnics.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-ethnicwear-kurtas-brands.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-ethnicwear-mnayavar-under999.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-ethnicwear-vastramay-min60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-ethnicwear-hangup-min65.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-ethnicwear-even-min60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-ethnicwear-seedesigns-min60.jpg">
-        </a>
-
-    </div>
-    <div>
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/accesaries-for-red-carpet.jpg">
-    </div>
-
-    <div id="international_seven">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-accessories-bagsbelts&wallets.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-accessories-caps&hats.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-accessories-grooming.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-accessories-satyapaul-min30.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-accessories-carlton-4070.jpg">
-        </a>
-
-
-    </div>
-    <div>
-
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/INNERWEAR-&-LOUNGEWEAR-EDIT.jpg">
-    </div>
-    <div id="international_seven">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11022022-D-MHP-boxersbroefstrunks-brands.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11022022-D-MHP-vests-brands.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11022022-D-MHP-vanheusen-min40.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11022022-D-MHP-jack&jones-4060.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/11022022-D-MHP-urbanhug-min55.jpg">
-        </a>
-    </div>
-    <div>
-
-        <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/There-is-more.jpg">
-    </div>
-    <div id="nine">
-
-
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exploremorebrands-justanned-min70.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exploremorebrands-brands-upto60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exploremorebrands-mavi-3050.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exploremorebrands-proline-upto60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exploremorebrands-thehollander-min65.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exploremorebrands-bugatti-upto50.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exploremorebrands-kennethcole-min40.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exploremorebrands-ausk-min60.jpg">
-        </a>
-        <a href="./productPage/productPage.html">
-
-            <img class="zoom_img"
-                src="https://assets.ajio.com/cms/AJIO/WEB/11032022-D-MHP-exploremorebrands-stelvio-min60.jpg">
-        </a>
-
-
-
-    </div>
-    <img class="zoom_img" src="https://assets.ajio.com/cms/AJIO/WEB/08032022-D-unisex-ajiocares-strip.jpg">
-
-
+    <!-- footer -->
     <div id="footer_division">
 
     </div>
 
-    </div>
 </body>
 
 </html>
-<script type="module">
+<script>
+    document.querySelector("#shipping").addEventListener("click", myfunction)
+
+    function myfunction(event) {
+        event.preventDefault();
+
+        var maindiv = document.createElement("div")
+        var div1 = document.createElement("div")
+
+        div1.innerText = "How long will the delivery take"
+        var div2 = document.createElement("div")
+        div2.innerText = "How can I track my order?"
+        var div3 = document.createElement("div")
+        div3.innerText = "Will all the products be shipped out together?"
+        var div4 = document.createElement("div")
+        div4.innerText = "How much will the shipping cost me?"
+        var div5 = document.createElement("div")
+        div5.innerText = "Will I have to be personally present to receive my order?"
+        var div6 = document.createElement("div")
+        div6.innerText = "What should I do if I miss my delivery?"
+        var div7 = document.createElement("div")
+        div7.innerText = "Do you deliver everywhere in India?"
+        var div8 = document.createElement("div")
+        div8.innerText = "Do you deliver internationally?"
+        var div9 = document.createElement("div")
+        div9.innerText = "What delivery carriers do you use?"
+        var div10 = document.createElement("div")
+        div10.innerText = "Are your products genuine?"
+        var div11 = document.createElement("div")
+        div11.innerText = "What are the various statuses an order can have?"
+        var div12 = document.createElement("div")
+        div12.innerText = "The package I received was damaged?"
 
 
-    // import file from men_slideshow for sliding for slide 1
-
-    import slide1 from './men_slideshow/slideshow1.js'
-    document.getElementById("slideshow1").innerHTML = slide1()
-    // import file from men_slideshow for sliding for slide 2
-
-    import slide2 from './men_slideshow/slideshow2.js'
-    document.getElementById("slideshow2").innerHTML = slide2()
-
-
-    // import file from men_slideshow for sliding for slide 3
-    import slide3 from './men_slideshow/slideshow3.js'
-    document.getElementById("slideshow3").innerHTML = slide3()
 
 
 
-    // functionfor slide 1
-    var count = 1;
-    setInterval(function () {
-
-        document.getElementById("radio" + count).checked = true;
-        count++;
-        if (count > 5) {
-            count = 1;
-        }
-    }, 5000)
-    // function for slide2
-    var count = 1;
-    setInterval(function () {
-
-        document.getElementById("r" + count).checked = true;
-        count++;
-        if (count > 5) {
-            count = 1;
-        }
-    }, 5000)
-    // function for slide 3
-    var count = 1;
-    setInterval(function () {
-
-        document.getElementById("ra" + count).checked = true;
-        count++;
-        if (count > 8) {
-            count = 1;
-        }
-    }, 5000)
 
 
+        //maindiv.append(div1,div2)
+        document.getElementById("box1").append(div1)
+        document.getElementById("box2").append(div2)
+        document.getElementById("box3").append(div3)
+        document.getElementById("box4").append(div4)
+        document.getElementById("box5").append(div5)
+        document.getElementById("box6").append(div6)
+        document.getElementById("box7").append(div7)
+        document.getElementById("box8").append(div8)
+        document.getElementById("box9").append(div9)
+        document.getElementById("box10").append(div10)
+        document.getElementById("box11").append(div11)
+        document.getElementById("box12").append(div12)
+
+
+
+
+
+
+    }
+
+
+    document.getElementById("box1").addEventListener("click", select1)
+
+    function select1(event) {
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1 = document.createElement("div")
+        div1.innerText = "Its s really quick! We strive to deliver all our orders / products in the fastest time possible. Depending upon your address, the delivery time may vary between 2 - 9 working days. That still won't stop us from trying to get you your order faster. On each product's display page, you can enter your location's pin code to check when you can expect to receive the delivery."
+        //div1.id="selectIssue1"
+
+        //main.append(div1)
+        document.getElementById("container3").append(div1)
+
+
+    }
+
+
+    document.getElementById("box2").addEventListener("click", select2)
+
+    function select2(event) {
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1 = document.createElement("div")
+        div1.innerText = "You can track your order as soon as it is shipped out. To know the status of your item real time, just tap on the tracking link in the email sent to you. Alternatively, you can also login to AJIO.com and visit the ‘My Account' section to know your order status."
+        //div1.id="selectIssue1"
+
+        //main.append(div1)
+        var a = document.getElementById("container3")
+        a.innerHTML = null;
+        document.getElementById("container3").append(div1)
+
+    }
+
+
+
+
+    document.getElementById("box3").addEventListener("click", select3)
+
+    function select3(event) {
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1 = document.createElement("div")
+        div1.innerText = "We try to ship all products of an order together. However, sometimes few products of an order may get dispatched from different locations. If so, we might ship some products out first and ship the remaining in a separate shipment to ensure that you don't wait even a minute longer than you have to. We will notify you each time a shipment is dispatched or it is out for delivery; so that you can track it till we knock on your door."
+        //div1.id="selectIssue1"
+
+        //main.append(div1)
+        var a = document.getElementById("container3")
+        a.innerHTML = null;
+        document.getElementById("container3").append(div1)
+
+    }
+
+
+
+
+    document.getElementById("box4").addEventListener("click", select4)
+
+    function select4(event) {
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1 = document.createElement("div")
+        div1.innerText = "All orders worth ₹1199 or above, will be shipped free of cost. For any orders below ₹1199, a nominal fee of ₹99 would be applied."
+        //div1.id="selectIssue1"
+
+        //main.append(div1)
+        var a = document.getElementById("container3")
+        a.innerHTML = null;
+        document.getElementById("container3").append(div1)
+
+    }
+
+    document.getElementById("box5").addEventListener("click", select5)
+
+    function select5(event) {
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1 = document.createElement("div")
+        div1.innerText = "We recommend that you receive the order yourself to ensure complete satisfaction. In case you are not present, the parcel will be delivered to the person available and this may be confirmed on call with you by our delivery executive. For security and validation, the signature of the receiver will be taken at the time of delivery."
+        //div1.id="selectIssue1"
+
+        //main.append(div1)
+        var a = document.getElementById("container3")
+        a.innerHTML = null;
+        document.getElementById("container3").append(div1)
+
+    }
+
+    document.getElementById("box6").addEventListener("click", select6)
+
+    function select6(event) {
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1 = document.createElement("div")
+        div1.innerText = "We understand that you can’t wait at your delivery address all the time, and that is exactly why we will try to attempt delivering your order thrice; each attempt on a consecutive day. So if you have missed the delivery please do not worry, we will try to make an attempt again."
+        //div1.id="selectIssue1"
+
+        //main.append(div1)
+        var a = document.getElementById("container3")
+        a.innerHTML = null;
+        document.getElementById("container3").append(div1)
+
+    }
+    document.getElementById("box7").addEventListener("click", select7)
+
+    function select7(event) {
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1 = document.createElement("div")
+        div1.innerText = "Sorry, that is not possible at the moment as the system would have already passed the mobile number and address to our warehouse to pack and ship your product. That said, we never say never! You can always cancel the order before it has been packed and can place a new order. Don't worry, there are no cancellation charges."
+        //div1.id="selectIssue1"
+
+        //main.append(div1)
+        var a = document.getElementById("container3")
+        a.innerHTML = null;
+        document.getElementById("container3").append(div1)
+
+    }
+    document.getElementById("box8").addEventListener("click", select8)
+
+    function select8(event) {
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1 = document.createElement("div")
+        div1.innerText = "Few places are not covered for COD by our delivery partners. Any inconvenience you face is regretted. This issue might also occur if the cash amount payable at the time of delivery exceeds a certain limit which is decided by our courier partners. Hence, we request you to always enter your pin code to check the availability of COD in your area. Alternatively, may we suggest an alternate form of payment? Perhaps a Credit Card, Debit Card, or Net Banking. We are not saying that this will be permanent; your pin code might be COD- enabled in the future. Do check!"
+        //div1.id="selectIssue1"
+
+        //main.append(div1)
+        var a = document.getElementById("container3")
+        a.innerHTML = null;
+        document.getElementById("container3").append(div1)
+
+    }
+
+    document.getElementById("box9").addEventListener("click", select9)
+
+    function select9(event) {
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1 = document.createElement("div")
+        div1.innerText = "That's the big dream and we're sure we'll achieve it soon! We strive to deliver to all the pin codes of India. At the time of shopping, please check if your pin code is covered by our Logistics Partner. If not, we would request you to provide an alternate shipping address."
+        //div1.id="selectIssue1"
+
+        //main.append(div1)
+        var a = document.getElementById("container3")
+        a.innerHTML = null;
+        document.getElementById("container3").append(div1)
+
+    }
+
+    document.getElementById("box10").addEventListener("click", select10)
+
+    function select10(event) {
+        event.preventDefault()
+        //var main=document.createElement("div")
+        var div1 = document.createElement("div")
+        div1.innerText = "You bet! We make sure that our products are 100% Genuine. Along with that, we take each product through a multiple-point quality check before shipping it out to you. That's the last thing you need to worry about! "
+        //div1.id="selectIssue1"
+
+        //main.append(div1)
+        var a = document.getElementById("container3")
+        a.innerHTML = null;
+        document.getElementById("container3").append(div1)
+
+    }
 </script>
 <script src="../NavbarFiles/scripts/navbar_real.js"></script>
+
 <script type="module">
-    import footer from './script_a/footer.js'
-    document.getElementById("footer_division").innerHTML = footer()
+    import footer from "../FooterFiles/footer.js";
+    let footer_division = document.getElementById("footer_division");
+    footer_division.innerHTML = footer();
 </script>
-<script src="./script_a/navbar.js"></script>

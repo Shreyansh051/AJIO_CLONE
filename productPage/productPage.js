@@ -76,14 +76,7 @@ getData(page)
 
 
 // ***************************
-
-
-
 function displayData(DataArray) {
-
-
-
-
   console.log(DataArray, "display array");
   DataArray.forEach(function (DataArray) {
     let div = document.createElement("div");
@@ -91,8 +84,7 @@ function displayData(DataArray) {
 
     let img1 = document.createElement("img");
     img1.src = DataArray.display_img;
-    img1.style.height = "300px";
-    // img1.style.width = "300px"
+    img1.style.width = "300px"
 
     let quickView = document.createElement("div");
     quickView.setAttribute("id", "quickView");
@@ -138,14 +130,9 @@ function displayData(DataArray) {
     let offer = document.createElement("div");
     offer.append(offer_price, offervalue);
 
-    let btn = document.createElement("button");
-    btn.innerText = "Add to cart"
-    btn.style.cursor = "pointer"
-    btn.style.marginLeft = "10px"
-
     let value = document.createElement("div");
 
-    value.append(price, mrp, discount,btn);
+    value.append(price, mrp, discount);
     value.setAttribute("id", "value");
 
     div.append(brand, name, value, offer);
@@ -153,7 +140,7 @@ function displayData(DataArray) {
     div.style.lineHeight = "25px";
 
     let anchor = document.createElement("a");
-    anchor.href = `Productdetailspage.html#id=${DataArray._id}`;
+    anchor.href = `../products/procuctdetails.html`;
     anchor.setAttribute("class", "anchor");
     anchor.append(div);
     card.append(img, anchor);
@@ -174,13 +161,10 @@ function displayData(DataArray) {
     }
     quickView.onclick = () => {
       console.log(DataArray);
-      console.log("Pushpa")
       // getData(DataArray._id);
     };
   });
 }
-
-
 
 // Sort By Functionaltiy
 var select = document.getElementById("select");

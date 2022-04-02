@@ -5,16 +5,12 @@
     top: 0;
     z-index: 14;
    
-    
 
-}
-#navbar23>div{
-    
-    margin-left: -8px;
 }
 #container{
     /* background-color: #27b1a9; */
     margin-top: 90px; 
+
 }
 
 
@@ -35,9 +31,6 @@ transform: scale(1.015);
         width:auto;
         display: flex;
     }
-    /* #ad_div>a>img{
-        width:44px;
-    } */
     #cashback{
         display: flex;
         overflow: hidden;
@@ -64,12 +57,14 @@ transform: scale(1.015);
         width:333px;
     }
     #nine{
-        display: flex;
-        flex-wrap: wrap;
+        display:grid;
+        flex-wrap: nowrap;
+        grid-template-columns:33% 33% 33%;
     }
     #nine_first{
-        display: flex;
-        flex-wrap: wrap;
+        display:grid;
+        flex-wrap: nowrap;
+        grid-template-columns:33% 33% 33%;
         background-color: #27b1a9;
     }
     #nine>a>img{
@@ -91,7 +86,7 @@ transform: scale(1.015);
     }
 
     #poster{
-        width: 1330px;
+        width:100%;
         transition: transform .8s ease;
     }
     #poster:hover {
@@ -226,6 +221,13 @@ transform: scale(1.015);
 
 /* 
 navbar css */
+
+
+
+
+
+/* navbar css */
+
 
 
 /* footercss */

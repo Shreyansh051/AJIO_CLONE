@@ -1,15 +1,17 @@
 #Navbar24{
- width: 100px;
- height: 90px;
+
+ height: 100px;
  position:fixed;
  top: 0;
  z-index:14;
+
 }
+
 #navbar{
     position: fixed;
     width: 100%;
     background-color: #FFFFFF;
-    height:85px;
+    height: 95px;
     border-top:3px solid #2F4254 ;
     display:flex;
     box-shadow: 0px 0px 5px #9a9a9a;
@@ -20,17 +22,21 @@
     
 
 }
+
+
 #link{
     text-decoration: none;
     color: black;
 }
 #navbar_ajio_logo {
-    width: 130px;
-    height: 37.5px;
+    width: 130px;   
+    height: 80px;
+    /* margin-top: -13px   ; */
   margin-left: 50%;
  padding-left: 5px;
  padding-top: 24px;
  flex-basis: 20%;   
+
 }
 
 #navbar > div:nth-child(n+2):nth-child(-n+6):hover {
@@ -43,7 +49,7 @@ font-size: 18px;
 #navbar > div:nth-child(2) {
 flex-basis: 5%;
 margin-top: 40px;
-margin-left: 350px;
+margin-left: 250px;
 }
 #navbar > div:nth-child(3) {
 flex-basis: 6%;
@@ -76,12 +82,14 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 #subnavbar > div:nth-child(1) {
 display: flex;
 flex-direction: row-reverse;
+margin-left: -300px;
 }
 #subnavbar > div:nth-child(1) > div {
 margin-right: 30px;
 font-size:13px;
 padding-top: 0px;
 cursor: pointer;
+
 }
 #subnavbar > div:nth-child(1) > div:hover {
 text-decoration: underline;
@@ -123,13 +131,13 @@ cursor: pointer;
 }
 #subnavbar > div:nth-child(2) > div:nth-child(2) {
 position: absolute;
-right: 13.4%;
+margin-left: 260px;
 top: 50px;
 color:#2F4254;
 }
 #subnavbar > div:nth-child(2) > div:nth-child(1) > input {
 border-radius: 20px;
-width:280px;
+width: 289px;
 height:30px;
 padding-left: 10px;
 border: 1px solid #333;
@@ -138,21 +146,21 @@ background-color: #FFFDED;
 #search_list {
 width: 255px;
 position: fixed;
-top: 100px;
+top: 85px;
 background-color:white;
 border: 2px solid #f1f1f1;
 box-shadow: 0px 0px 5px #9a9a9a;
-right: 16.5%;
+right: 12.3%;
 z-index: 11;
 visibility: hidden;
 }
 #flying_container {
 /* height:200px; */
-width: 70%;
+width: 90%;
 /* background-color:gray; */
 position: fixed;
-left:250px;
-top: 100px;
+left:5%;
+top: 78px;
 z-index: 10;
 display: flex;
 flex-direction: column;
@@ -203,6 +211,12 @@ margin-top: 10px;
 font-weight: 800;
 font-size: 14px;
 }
+#flying_container > div:nth-child(2) > div > p  {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    
+    font-size: 14px;
+    }
 #flying_container > div:nth-child(2) > div > p:hover  {
 text-decoration: underline;
 }
@@ -344,6 +358,14 @@ padding-left: 5px;
 padding-right: 5px;
 }
 
-
-
+#none {
+    margin-top: -10px;
+    color: black;
+    text-decoration: none;
+}
+#newsite>p{
+    margin-top:5px;
+    color:white;
+    text-decoration: none;
+}
 
