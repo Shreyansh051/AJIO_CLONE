@@ -28,11 +28,41 @@ Github Clone - https://github.com/Shreyansh12Gupta/AJIO_CLONE
 
 ## Blog
 
-Blog  link => https://medium.com/@abhijeethiwale0077/ajio-website-clone-5d5e8c1999d6
+Blog link => https://medium.com/@abhijeethiwale0077/ajio-website-clone-5d5e8c1999d6
 
 ## Clone
 
 Clone link => https://remarkable-fox-ecb381.netlify.app/
+
+## Roles & Responsibilities :-
+
+GitHub is Managed & Readme.md done by Shreyansh.
+
+Navbar,product description ,page ,The Searchbar, sign in dropdown,designed& functioned by shreyash.
+
+Landing page , customer page designed& functioned by Noorbasha.
+
+footer,kids,indie page, designed& functioned by shreyansh.
+
+Mens,womens page, designed& functioned by Ayush.
+
+All products page and filter data is designed & functioned by Abhijeet.
+
+Cart page,checkout page,Payment Page, order confirmed page, designed & functioned by Abhishek
+
+
+
+## Learning :-
+
+We all became proficient in reading the code of team members.
+
+Our code writing style became cleaner as we had to think while writing code that other team members will be reading.
+
+We had to learn about many CSS properties that we didn't know before.
+
+Our skills in JavaScript and DOM manipulation became better.
+
+We all learned how to plan a project and execute that.
 
 ## Team-Member
 
@@ -54,6 +84,5 @@ Clone link => https://remarkable-fox-ecb381.netlify.app/
 ![App Screenshot](./readimages/Screenshot4%20.png)
 
 ![App Screenshot](./readimages/Screenshot%205.png)
-
 
                                                  THANK YOU
