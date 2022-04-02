@@ -32,7 +32,7 @@ Blog  link =>
 
 ## Clone
 
-Clone link => https://taupe-kleicha-7e7699.netlify.app/
+Clone link => https://remarkable-fox-ecb381.netlify.app/
 
 ## Team-Member
 
