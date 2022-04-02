@@ -84,7 +84,6 @@ function displayData(DataArray) {
 
     let img1 = document.createElement("img");
     img1.src = DataArray.display_img;
-    img1.style.height = "300px";
     img1.style.width = "300px"
 
     let quickView = document.createElement("div");
@@ -141,7 +140,7 @@ function displayData(DataArray) {
     div.style.lineHeight = "25px";
 
     let anchor = document.createElement("a");
-    anchor.href = `Productdetailspage.html#id=${DataArray._id}`;
+    anchor.href = `../products/procuctdetails.html`;
     anchor.setAttribute("class", "anchor");
     anchor.append(div);
     card.append(img, anchor);
