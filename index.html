@@ -268,9 +268,9 @@
                         <p>Email or mobile</p>
                         <input name="email" id="email">
 
-                        <p id=login_signup_alert></p>
-                        <div>
-                            <button id="signup">Sign Up</button>
+                        <p ></p>
+                        <div >
+                            <button  id="signup">Sign Up</button>
                         </div>
                         <p id="disclamer">By Signing In, I agree to <span>Terms and Conditions</span></p>
 
@@ -922,7 +922,23 @@ document.getElementById("slideshow4").innerHTML=slide4()
             count=1;
         }
     },8000)
-  let hello12 = document.getElementById("signup");
-  hello12.click = alert("login success")
+  
+  
+  let container1= document.getElementById("signup");
+  // container1.addEventListener("click", function hello(){
+    setTimeout(() => {
+      container1.addEventListener("click", function hello(){
+      alert("login success");
+      console.log("hello"); 
+    });
+  }, 2000);
+      
+  // });
+  // function hello() {
+  //   {    {
+  //       alert("login success");
+  //     console.log("hello")}
+  //     }
+  // };
   
 </script>
