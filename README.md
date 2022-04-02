@@ -34,6 +34,10 @@ Blog link => https://medium.com/@abhijeethiwale0077/ajio-website-clone-5d5e8c199
 
 Clone link => https://rad-wisp-02436f.netlify.app
 
+## Presentation 
+
+Link=> https://drive.google.com/file/d/11i_9lElRtnxBf_d19u7GQVKdVP70Nmmb/view?usp=sharing
+
 ## Roles & Responsibilities :-
 
 GitHub is Managed & Readme.md done by Shreyansh.
