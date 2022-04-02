@@ -40,9 +40,9 @@ GitHub is Managed & Readme.md done by Shreyansh.
 
 Navbar,product description ,page ,The Searchbar, sign in dropdown,designed& functioned by shreyash.
 
-Landing page , customer page designed& functioned by Noorbasha.
-
 footer,kids,indie page, designed& functioned by shreyansh.
+
+Landing page , customer page designed& functioned by Noorbasha.
 
 Mens,womens page, designed& functioned by Ayush.
 
