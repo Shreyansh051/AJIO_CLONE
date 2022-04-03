@@ -50,7 +50,8 @@ Landing page , customer page designed& functioned by Noorbasha.
 
 Landing page, Mens page , womens page, designed& functioned by Ayush.
 
-All products page and filter data is designed & functioned by Abhijeet.
+All products page and filter data designed & functioned by Abhijeet & also
+Blog  created by Abhijeet.
 
 Cart page,checkout page,Payment Page, order confirmed page, designed & functioned by Abhishek
 
